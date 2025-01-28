@@ -254,6 +254,7 @@ select::-ms-expand {
   position: relative;
   white-space: nowrap;
   font-size: 16px;
+  background: #6E8895;
 }
 
 .cta-btn__contents {
@@ -270,7 +271,7 @@ select::-ms-expand {
 }
 
 .cta-btn img {
-  width: 10px;
+  width: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -357,6 +358,8 @@ select::-ms-expand {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: 5%;
+  width: 100%;
+  text-align: center;
 }
 
 /* ================================
