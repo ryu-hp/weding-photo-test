@@ -333,6 +333,7 @@ select::-ms-expand {
   color: #fff;
   font-weight: 700;
   text-shadow: 0 0 8px #ECECEC;
+  white-space: nowrap;
 }
 
 .kv__texts--main {
