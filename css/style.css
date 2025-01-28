@@ -1,0 +1,288 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.inner {
+  width: 100%;
+  max-width: calc(1000px + 3.125rem);
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .inner {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+  }
+}
+
+.only-sp {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .only-sp {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .only-pc {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  line-height: 1.8;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* a 要素のリセット */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+/* Natural flow and rhythm in articles by default 
+article > * + * {
+  margin-top: 1em;
+}
+*/
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Blur images when they have no alt attribute */
+img:not([alt]) {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+/* フォームリセット */
+input,
+button,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  font: inherit;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  display: none;
+}
+
+input[type=submit],
+input[type=button],
+label,
+button,
+select {
+  cursor: pointer;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/* ================================
+共通パーツ
+=============================== */
+.section-space {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 32px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.section-title::after {
+  position: absolute;
+  display: block;
+  width: 100px;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 2px;
+  background: #000;
+}
+
+.text-transform-up {
+  text-transform: uppercase;
+}
+
+.card-shadow {
+  -webkit-box-shadow: 8px 8px #9E9A9A;
+          box-shadow: 8px 8px #9E9A9A;
+}
+
+.display-grid {
+  display: grid;
+}
+
+.display-grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.display-grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cta-btn {
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  max-width: 300px;
+  width: 100%;
+  line-height: 1;
+  padding: 16px 16px;
+  position: relative;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.cta-btn__contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cta-btn img {
+  width: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-space {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .section-title {
+    font-size: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+  }
+  .section-title::after {
+    width: 60px;
+  }
+  .card-shadow {
+    -webkit-box-shadow: 4px 4px #9E9A9A;
+            box-shadow: 4px 4px #9E9A9A;
+  }
+}
+/* ================================
+ページ全体レイアウト
+=============================== */
+.sample {
+  color: #000;
+  font-size: clamp(1rem, 1rem + 0.0017964072 * (100vw - 375px), 1.15rem);
+}
+
+/* ================================
+スマホレイアウト
+=============================== */

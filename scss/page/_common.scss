@@ -1,0 +1,88 @@
+@use "../global" as *;
+/* ================================
+共通パーツ
+=============================== */ 
+// 余白
+.section-space {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+// タイトル
+.section-title {
+  position: relative;
+  font-size: 32px;
+  font-weight: $bold;
+  padding-bottom: 32px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+.section-title::after {
+  position: absolute;
+  display: block;
+  width: 100px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background: $color-black;
+}
+// テキストスタイル
+.text-transform-up {
+  text-transform: uppercase;
+}
+// シャドウ
+.card-shadow {
+  box-shadow: 8px 8px $color-card-gray-bg ;
+}
+// レイアウト
+.display-grid {
+  display: grid;
+}
+.display-grid-col-2 {
+  grid-template-columns: repeat(2,1fr);
+}
+.display-grid-col-3 {
+  grid-template-columns: repeat(3,1fr);
+}
+// ボタン
+.cta-btn {
+  display: inline-block;
+  color: $color-white;
+  font-weight: $bold;
+  max-width: 300px;
+  width: 100%;
+  line-height: 1;
+  padding: 16px 16px;
+  position: relative;
+  white-space: nowrap;
+  font-size: 16px;
+}
+.cta-btn__contents {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.cta-btn img {
+  width: 10px;
+}
+@include mq(md) {
+  // 余白
+  .section-space {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  } 
+  // タイトル
+  .section-title {
+    font-size: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 16px;
+  }
+  .section-title::after {
+    width: 60px;
+  }
+  // シャドウ
+  .card-shadow {
+    box-shadow: 4px 4px $color-card-gray-bg ;
+  }
+}

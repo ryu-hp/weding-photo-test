@@ -120,27 +120,3 @@ select {
 select::-ms-expand {
   display: none;
 }
-
-// テーマcss無効化
-.lp1 {
-  h2 {
-    border-top-color:transparent;
-    border-top: none !important;
-    font-family: $base-font-family !important;
-    background: transparent;
-    padding: 0;
-    border-bottom: none;
-  }
-  h3 {
-    border-bottom: none;
-    box-shadow: none;
-    padding-bottom: 0;
-    font-family: $base-font-family !important;
-  }
-  h3::after {
-    display: none;
-  }
-}
-.vk-mobile-nav-menu-btn {
-  display: none !important;
-}
