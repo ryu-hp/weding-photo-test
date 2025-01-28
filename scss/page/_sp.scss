@@ -3,5 +3,23 @@
 スマホレイアウト
 =============================== */ 
 @include mq(md) {
-  
+  // キービジュアル
+  .kv__logo {
+    top: 20px;
+    left: 20px;
+    width: 100px;
+  }
+  .kv__texts {
+    top: 20%;
+    text-shadow: 0 0 8px $color-light-gray;
+  }
+  .kv__texts--main {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .kv__texts--sub {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
 }
