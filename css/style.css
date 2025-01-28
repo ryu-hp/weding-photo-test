@@ -306,9 +306,56 @@ select::-ms-expand {
 /* ================================
 ページ全体レイアウト
 =============================== */
-.sample {
-  color: #000;
-  font-size: clamp(1rem, 1rem + 0.0017964072 * (100vw - 375px), 1.15rem);
+.kv__image {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.kv__inner {
+  position: relative;
+}
+
+.kv__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
+.kv__texts {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 0 0 8px #ECECEC;
+}
+
+.kv__texts--main {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.kv__texts--sub {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.cta__contents {
+  position: relative;
+}
+
+.cta__btn {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 5%;
 }
 
 /* ================================
