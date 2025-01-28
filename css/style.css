@@ -185,6 +185,22 @@ select::-ms-expand {
   margin-bottom: 60px;
 }
 
+.margin-t-1 {
+  margin-top: 24px;
+}
+
+.margin-b-1 {
+  margin-bottom: 24px;
+}
+
+.margin-t-2 {
+  margin-top: 40px;
+}
+
+.margin-b-2 {
+  margin-bottom: 40px;
+}
+
 .section-title {
   position: relative;
   font-size: 32px;
@@ -261,6 +277,18 @@ select::-ms-expand {
   .section-space {
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  .margin-t-1 {
+    margin-top: 16px;
+  }
+  .margin-b-1 {
+    margin-bottom: 16px;
+  }
+  .margin-t-2 {
+    margin-top: 24px;
+  }
+  .margin-b-2 {
+    margin-bottom: 24px;
   }
   .section-title {
     font-size: 24px;
