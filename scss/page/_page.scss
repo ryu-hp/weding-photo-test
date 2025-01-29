@@ -471,3 +471,11 @@
   margin-right:auto;
   margin-left:auto;
 }
+@media screen and (min-width:751px) {
+  .fix-contents {
+    background-color: #4ca62f;
+  }
+  .fix-contents__image {
+    margin-top: -28px;
+  }
+}
