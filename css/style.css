@@ -234,8 +234,8 @@ select::-ms-expand {
 }
 
 .card-shadow {
-  -webkit-box-shadow: 8px 8px #9E9A9A;
-          box-shadow: 8px 8px #9E9A9A;
+  -webkit-box-shadow: 3.8px 3.8px 8px #bbb7b7;
+          box-shadow: 3.8px 3.8px 8px #bbb7b7;
 }
 
 .display-grid {
@@ -307,8 +307,8 @@ select::-ms-expand {
     width: 60px;
   }
   .card-shadow {
-    -webkit-box-shadow: 4px 4px #9E9A9A;
-            box-shadow: 4px 4px #9E9A9A;
+    -webkit-box-shadow: 4px 4px #bbb7b7;
+            box-shadow: 4px 4px #bbb7b7;
   }
 }
 /* ================================
