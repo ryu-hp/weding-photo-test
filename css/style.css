@@ -542,9 +542,13 @@ select::-ms-expand {
   z-index: 1;
 }
 
+.sec-04__item + .sec-04__item {
+  margin-top: 80px;
+}
+
 .sec-04__item-number {
   position: absolute;
-  width: 210px;
+  width: 28%;
   z-index: -1;
   top: -40px;
   left: 0;
