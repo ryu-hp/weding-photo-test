@@ -276,6 +276,7 @@
 // sec-06
 .sec-06__text-contents {
   gap: 48px 24px;
+  margin-bottom: 70px;
 }
 .sec-06__item {
  background-color: #9e9a9a; 
@@ -311,4 +312,67 @@
 .sec-06__calcel {
   display: flex;
   gap: 20px;
+}
+
+// sec-07
+.sec-07__description {
+  font-size: 32px;
+  margin-bottom: 54px;
+}
+.sec-07__card + .sec-07__card {
+  margin-top: 80px;
+}
+.sec-07__card-head {
+  font-size: 40px;
+}
+.sec-07__card-price {
+  font-size: 44px;
+  color: $color-red;
+  position: relative;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  .strong {
+    font-weight: $bold;
+    font-size: 56px;
+  }
+  .small {
+    font-size: 30px;
+  }
+}
+.sec-07__card-price::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: $color-black;
+}
+.sec-07__card-description {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.sec-07__card-contents {
+  display: flex;
+  justify-content: center;
+  gap:40px 10px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.sec-07__card-item {
+  max-width:100px;
+}
+.sec-07__card-item-icon {
+  max-width: 90px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 16px;
+}
+.sec-07__card-item-text {
+  font-size: 16px;
+}
+.sec-07__card-alert {
+  color: $color-blue;
+  font-size: 20px;
 }
