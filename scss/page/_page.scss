@@ -63,6 +63,7 @@
     display: block;
 }
 .sec-02__images::before {
+    content: "";
     display: block;
     width: 100%;
     padding-top: calc(444 / 327 * 100%) ;
