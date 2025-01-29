@@ -627,7 +627,7 @@ select::-ms-expand {
 }
 
 .sec-06__text-contents {
-  gap: 24px 48px;
+  gap: 48px 24px;
 }
 
 .sec-06__item {
@@ -647,6 +647,8 @@ select::-ms-expand {
 }
 
 .sec-06__item-list li::before {
+  content: "";
+  display: block;
   position: absolute;
   left: 0;
   top: 50%;

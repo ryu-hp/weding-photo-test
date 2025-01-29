@@ -275,7 +275,7 @@
 }
 // sec-06
 .sec-06__text-contents {
-  gap: 24px 48px;
+  gap: 48px 24px;
 }
 .sec-06__item {
  background-color: #9e9a9a; 
@@ -292,6 +292,8 @@
   position: relative;
 }
 .sec-06__item-list li::before {
+  content: "";
+  display: block;
   position: absolute;
   left: 0;
   top: 50%;
