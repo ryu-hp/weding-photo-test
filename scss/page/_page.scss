@@ -303,3 +303,10 @@
 .sec-06__item-list li + li {
   margin-top: 30px;
 }
+.sec-06__col-wrapper {
+  overflow-x: scroll;
+}
+.sec-06__calcel {
+  display: flex;
+  gap: 20px;
+}
