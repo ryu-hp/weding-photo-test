@@ -268,7 +268,38 @@
 }
 .sec-05__item-description {
   max-width: 300px;
+  font-size: 19px;
 }
 .sec-05__item-image {
   max-width:169px;
+}
+// sec-06
+.sec-06__text-contents {
+  gap: 24px 48px;
+}
+.sec-06__item {
+ background-color: #9e9a9a; 
+ color: $color-white;
+ padding: 32px 32px;
+ 
+}
+.sec-06__item-head {
+  margin-bottom: 56px;
+}
+.sec-06__item-list li {
+  font-size: 24px;
+  padding-left: 27px;
+  position: relative;
+}
+.sec-06__item-list li::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 2px;
+  background: $color-white;
+}
+.sec-06__item-list li + li {
+  margin-top: 30px;
 }
