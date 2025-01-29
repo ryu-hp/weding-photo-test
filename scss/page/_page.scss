@@ -50,3 +50,36 @@
     width: 100%;
     text-align: center;
 }
+// sec-01
+.sec-01__image {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+// sec-02 
+.sec-02__images {
+    position: relative;
+    display: block;
+}
+.sec-02__images::before {
+    display: block;
+    width: 100%;
+    padding-top: calc(444 / 327 * 100%) ;
+}
+.sec-02__image {
+    position: absolute;
+    width: calc( 156 / 327 * 100% );
+}
+.sec-02__image.__01 {
+    top: 0;
+    left: 0;
+}
+.sec-02__image.__02 {
+    top: 10%;
+    right: 0;
+}
+.sec-02__image.__03 {
+    bottom: 0;
+    left: 20%;
+}
