@@ -680,6 +680,12 @@ select::-ms-expand {
   margin-bottom: 54px;
 }
 
+.sec-07__card {
+  max-width: 674px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .sec-07__card + .sec-07__card {
   margin-top: 80px;
 }
@@ -726,14 +732,10 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 40px 10px;
+  gap: 40px 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 50px;
-}
-
-.sec-07__card-item {
-  max-width: 100px;
 }
 
 .sec-07__card-item-icon {
@@ -745,6 +747,7 @@ select::-ms-expand {
 
 .sec-07__card-item-text {
   font-size: 16px;
+  white-space: nowrap;
 }
 
 .sec-07__card-alert {

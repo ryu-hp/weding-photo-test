@@ -319,6 +319,11 @@
   font-size: 32px;
   margin-bottom: 54px;
 }
+.sec-07__card {
+  max-width: 674px;
+  margin-right:auto;
+  margin-left:auto;
+}
 .sec-07__card + .sec-07__card {
   margin-top: 80px;
 }
@@ -356,12 +361,9 @@
 .sec-07__card-contents {
   display: flex;
   justify-content: center;
-  gap:40px 10px;
+  gap:40px 20px;
   flex-wrap: wrap;
   margin-bottom: 50px;
-}
-.sec-07__card-item {
-  max-width:100px;
 }
 .sec-07__card-item-icon {
   max-width: 90px;
@@ -371,6 +373,7 @@
 }
 .sec-07__card-item-text {
   font-size: 16px;
+  white-space: nowrap;
 }
 .sec-07__card-alert {
   color: $color-blue;
