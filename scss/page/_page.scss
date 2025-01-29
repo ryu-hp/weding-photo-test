@@ -99,7 +99,7 @@
 }
 .sec-03__card.__01 {
   .sec-03__card-images {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     grid-template-columns: calc(119 / 318 * 100%) 1fr 1fr ;
   }
   .sec-03__card-image:nth-child(1) {
@@ -115,7 +115,7 @@
 }
 .sec-03__card.__02 {
   .sec-03__card-images {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
     grid-template-columns: 1fr 1fr calc(119 / 318 * 100%)
   }
   .sec-03__card-image:nth-child(1) {
@@ -131,8 +131,8 @@
 }
 .sec-03__card.__03 {
   .sec-03__card-images {
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: calc(119 / 318 * 100%) 1fr 1fr ;
+    grid-template-rows: auto;
+    grid-template-columns: calc(100 / 318 * 100%) 1fr 1fr ;
   }
   .sec-03__card-image:nth-child(1) {
     grid-area: 1 / 2 / 5 / 5; 

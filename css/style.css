@@ -422,7 +422,7 @@ select::-ms-expand {
 }
 
 .sec-03__card.__01 .sec-03__card-images {
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto;
   grid-template-columns: 37.4213836478% 1fr 1fr;
 }
 .sec-03__card.__01 .sec-03__card-image:nth-child(1) {
@@ -436,7 +436,7 @@ select::-ms-expand {
 }
 
 .sec-03__card.__02 .sec-03__card-images {
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 37.4213836478%;
 }
 .sec-03__card.__02 .sec-03__card-image:nth-child(1) {
@@ -450,8 +450,8 @@ select::-ms-expand {
 }
 
 .sec-03__card.__03 .sec-03__card-images {
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: 37.4213836478% 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: 31.4465408805% 1fr 1fr;
 }
 .sec-03__card.__03 .sec-03__card-image:nth-child(1) {
   grid-area: 1/2/5/5;
