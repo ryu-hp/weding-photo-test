@@ -369,6 +369,59 @@ select::-ms-expand {
   text-align: center;
 }
 
+.cta-02 {
+  background: #e9eae2;
+  padding: 0 30px;
+}
+
+.cta-02__top-text {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.cta-02__bottom-text {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.cta-02__bottom-text span {
+  position: relative;
+  display: inline-block;
+}
+
+.cta-02__bottom-text span::before,
+.cta-02__bottom-text span::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: #000;
+}
+
+.cta-02__bottom-text span::before {
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+
+.cta-02__bottom-text span::after {
+  width: 10px;
+  height: 10px;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0%);
+          clip-path: polygon(0 0, 50% 100%, 100% 0%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cta-02__btn {
+  width: 100%;
+}
+
 .sec-01__image {
   width: 100vw;
   max-width: 100vw;
