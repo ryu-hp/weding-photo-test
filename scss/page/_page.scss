@@ -41,6 +41,9 @@
 // cta 
 .cta__contents {
     position: relative;
+    max-width: 704px;
+    margin-right:auto;
+    margin-left:auto;
 }
 .cta__btn {
     position: absolute;
@@ -411,7 +414,14 @@
 .sec-07__card-list li {
   font-size: 20px;
   line-height: 2;
-  list-style: disc;
+  position: relative;
+  padding-left: 20px;
+}
+.sec-07__card-list li::before {
+  content: "・";
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .sec-07__card-list li:nth-child(1) {
   margin-right: 10px;
@@ -454,6 +464,10 @@
   max-width: 392px ;
   margin-right:auto;
   margin-left:auto;
+}
+.sec-08__item-head,
+.sec-08__item-description {
+  padding-top: 12px;
 }
 // fix-contents 
 .fix-contents {
