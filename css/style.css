@@ -698,6 +698,7 @@ select::-ms-expand {
 
 .sec-07__card-body {
   padding: 30px 20px;
+  background: #fff;
 }
 
 .sec-07__card-head {
@@ -801,6 +802,72 @@ select::-ms-expand {
 
 .sec-07__card-list li:nth-child(1) {
   margin-right: 10px;
+}
+
+.sec-08__item-quastion,
+.sec-08__item-answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sec-08__item-quastion {
+  background-color: #ECECEC;
+  border-bottom: 2px solid #000;
+}
+
+.sec-08__item-answer {
+  background-color: #fff;
+}
+
+.sec-08__item-icon {
+  font-size: 32px;
+}
+
+.sec-08__item-description {
+  font-size: 20px;
+}
+
+.sec-08__item-answer p {
+  color: #3c5b6c;
+}
+
+.sec-09 {
+  padding-bottom: 80px;
+}
+
+.sec-09__body > p:first-child {
+  margin-bottom: 40px;
+}
+
+.sec-09__text {
+  margin-bottom: 70px;
+}
+
+.sec-o9__image {
+  max-width: 392px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fix-contents {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.fix-contents a {
+  display: block;
+  width: 100%;
+}
+
+.fix-contents__image {
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* ================================
