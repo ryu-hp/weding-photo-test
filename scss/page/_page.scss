@@ -67,7 +67,7 @@
   margin-bottom: 8px;
 }
 .cta-02__card {
-  box-shadow: 8px 8px 5px 10px rgba($color: #848580, $alpha: 0.8) ;
+  box-shadow: 3.48px 7.24px 10px 0px rgba(132, 133, 128, 0.84);
   margin-bottom: 16px;
 }
 .cta-02__bottom-text {
@@ -142,6 +142,9 @@
 .sec-03__card {
     text-align: center;
 }
+.sec-03__card + .sec-03__card {
+  margin-top: 30px;
+}
 .sec-03__card-head {
   margin-bottom: 16px;
   text-align: center;
@@ -198,4 +201,28 @@
   .sec-03__card-image:nth-child(3) {
     grid-area: 3 / 1 / 5 / 2; 
   }
+}
+// sec-04
+.sec-04__item {
+  position: relative;
+  z-index: 1;
+}
+.sec-04__item-number {
+  position: absolute;
+  width: 210px;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+}
+.sec-04__item-head {
+  text-align: center;
+  font-size: 32px;
+  color: $color-blue;
+  margin-bottom: 40px;
+}
+.sec-04__item-description {
+  max-width: 540px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align: justify;
 }

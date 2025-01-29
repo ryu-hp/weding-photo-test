@@ -55,6 +55,8 @@ a {
 * {
   line-height: 1.8;
   font-family: "hiragino-mincho-pron", sans-serif;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 
 *,
@@ -388,8 +390,8 @@ select::-ms-expand {
 }
 
 .cta-02__card {
-  -webkit-box-shadow: 8px 8px 5px 10px rgba(132, 133, 128, 0.8);
-          box-shadow: 8px 8px 5px 10px rgba(132, 133, 128, 0.8);
+  -webkit-box-shadow: 3.48px 7.24px 10px 0px rgba(132, 133, 128, 0.84);
+          box-shadow: 3.48px 7.24px 10px 0px rgba(132, 133, 128, 0.84);
   margin-bottom: 16px;
 }
 
@@ -478,6 +480,10 @@ select::-ms-expand {
   text-align: center;
 }
 
+.sec-03__card + .sec-03__card {
+  margin-top: 30px;
+}
+
 .sec-03__card-head {
   margin-bottom: 16px;
   text-align: center;
@@ -529,6 +535,33 @@ select::-ms-expand {
 }
 .sec-03__card.__03 .sec-03__card-image:nth-child(3) {
   grid-area: 3/1/5/2;
+}
+
+.sec-04__item {
+  position: relative;
+  z-index: 1;
+}
+
+.sec-04__item-number {
+  position: absolute;
+  width: 210px;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+}
+
+.sec-04__item-head {
+  text-align: center;
+  font-size: 32px;
+  color: #3c5b6c;
+  margin-bottom: 40px;
+}
+
+.sec-04__item-description {
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
 }
 
 /* ================================
