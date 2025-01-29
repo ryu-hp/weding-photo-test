@@ -46,7 +46,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 5%;
+    bottom: 10%;
     width: 100%;
     text-align: center;
 }
@@ -312,6 +312,8 @@
 .sec-06__calcel {
   display: flex;
   gap: 20px;
+  min-width: 1600px;
+  margin: 8px;
 }
 
 // sec-07
@@ -326,6 +328,9 @@
 }
 .sec-07__card + .sec-07__card {
   margin-top: 80px;
+}
+.sec-07__card-body {
+  padding: 30px 20px;
 }
 .sec-07__card-head {
   font-size: 40px;

@@ -366,7 +366,7 @@ select::-ms-expand {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 5%;
+  bottom: 10%;
   width: 100%;
   text-align: center;
 }
@@ -673,6 +673,8 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
+  min-width: 1600px;
+  margin: 8px;
 }
 
 .sec-07__description {
@@ -688,6 +690,10 @@ select::-ms-expand {
 
 .sec-07__card + .sec-07__card {
   margin-top: 80px;
+}
+
+.sec-07__card-body {
+  padding: 30px 20px;
 }
 
 .sec-07__card-head {
