@@ -22,7 +22,16 @@
   <!-- css -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- フォント -->
-
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'sef1cva',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
@@ -138,6 +147,60 @@
                 <img src="./image/example-image-pet-03.webp" alt="夫婦でのpetロケーションの写真">
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id = "cta-02" class = "cta-02">
+      <div class="cta-02__inner inner">
+        <p class="cta-02__top-text">
+          <img src="./image/CTA-B-title.webp" alt="special offer">
+        </p>
+        <p class="cta-02__middle-text">
+          \このページからLINE追加していただいた方限定/
+        </p>
+        <div class="cta-02__card">
+          <img src="./image/CTA-B-card.webp" alt="カード">
+        </div>
+        <p class="cta-02__bottom-text">
+          特典がほしい方は今すぐ
+        </p>
+        <div class="cta-02__btn">
+          <a href="#line" class="cta-btn">
+            <div class="cta-btn__contents">
+              <span class="text-transform-up">line追加はこちら！</span><img src="./image/CTA-A-icon.webp" alt="矢印">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id = "sec-04" class = "sec-04">
+      <div class="sec-04__inner inner">
+        <h2 class="section-title">メソンマリエとは？</h2>
+        <div class="sec-04__body">
+          <div class="sec-04__item">
+            <p class="sec-04__item-head">
+              最高の品質と仕上がり
+            </p>
+            <p class="sec-04__item-description">
+              撮影に使用する機材や加工に至るまで、全てにおいて高品質を追求。アルバムや映像にもこだわり抜き、感動的で美しい仕上がりをお届けします。
+            </p>
+          </div>
+          <div class="sec-04__item">
+            <p class="sec-04__item-head">
+              プロフェッショナルなスタッフ<br>による完全サポート
+            </p>
+            <p class="sec-04__item-description">
+              経験豊富なスタッフが、お客様に寄り添ったサービスを提供。撮影の進行や衣装選び、ポージングのアドバイスまで、細やかなサポートが魅力。
+            </p>
+          </div>
+          <div class="sec-04__item">
+            <p class="sec-04__item-head">
+              洗練された撮影スタイルと<br>カスタマイズ可能なプラン
+            </p>
+            <p class="sec-04__item-description">
+              あらゆるカップルのニーズに応じた多彩な撮影プランをご用意。美しいスタジオだけでなく、ロケーション撮影も対応しております。
+            </p>
           </div>
         </div>
       </div>

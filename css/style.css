@@ -54,6 +54,7 @@ a {
 
 * {
   line-height: 1.8;
+  font-family: "hiragino-mincho-pron", sans-serif;
 }
 
 *,
@@ -204,7 +205,7 @@ select::-ms-expand {
 .section-title {
   position: relative;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   padding-bottom: 32px;
   line-height: 1;
   margin-bottom: 24px;
@@ -252,7 +253,7 @@ select::-ms-expand {
 .cta-btn {
   display: inline-block;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   max-width: 300px;
   width: 100%;
   line-height: 1;
@@ -260,7 +261,7 @@ select::-ms-expand {
   position: relative;
   white-space: nowrap;
   font-size: 16px;
-  background: #6E8895;
+  background: #3c5b6c;
 }
 
 .cta-btn__contents {
@@ -338,7 +339,7 @@ select::-ms-expand {
   top: 20%;
   text-align: center;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   text-shadow: 0 0 8px #ECECEC;
   white-space: nowrap;
 }
@@ -399,6 +400,7 @@ select::-ms-expand {
 .sec-02__image.__02 {
   top: 10%;
   right: 0;
+  z-index: 1;
 }
 
 .sec-02__image.__03 {
@@ -413,8 +415,8 @@ select::-ms-expand {
 .sec-03__card-head {
   margin-bottom: 16px;
   text-align: center;
-  color: #6E8895;
-  font-weight: 700;
+  color: #3c5b6c;
+  font-weight: 600;
 }
 
 .sec-03__card-images {
@@ -451,7 +453,7 @@ select::-ms-expand {
 
 .sec-03__card.__03 .sec-03__card-images {
   grid-template-rows: auto;
-  grid-template-columns: 31.4465408805% 1fr 1fr;
+  grid-template-columns: 32.0512820513% 1fr 1fr;
 }
 .sec-03__card.__03 .sec-03__card-image:nth-child(1) {
   grid-area: 1/2/5/5;

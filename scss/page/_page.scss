@@ -79,6 +79,7 @@
 .sec-02__image.__02 {
     top: 10%;
     right: 0;
+    z-index: 1;
 }
 .sec-02__image.__03 {
     bottom: 0;
@@ -132,7 +133,7 @@
 .sec-03__card.__03 {
   .sec-03__card-images {
     grid-template-rows: auto;
-    grid-template-columns: calc(100 / 318 * 100%) 1fr 1fr ;
+    grid-template-columns: calc(100 / 312 * 100%) 1fr 1fr ;
   }
   .sec-03__card-image:nth-child(1) {
     grid-area: 1 / 2 / 5 / 5; 
