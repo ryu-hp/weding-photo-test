@@ -59,6 +59,10 @@ a {
           font-feature-settings: "palt";
 }
 
+body {
+  background: #F6F6F6;
+}
+
 *,
 *::before,
 *::after {
