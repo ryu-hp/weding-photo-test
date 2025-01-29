@@ -564,6 +564,63 @@ select::-ms-expand {
   text-align: justify;
 }
 
+.sec-05__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.sec-05__item + .sec-05__item {
+  margin-top: 20px;
+}
+
+.sec-05__item-step {
+  max-width: 88px;
+  width: 100%;
+}
+
+.sec-05__item-arrow {
+  max-width: 27px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 34px;
+}
+
+.sec-05__item-card {
+  width: 100%;
+  background: #fff;
+  padding: 28px 30px;
+  margin-top: 20px;
+}
+
+.sec-05__item-head {
+  text-align: center;
+  color: #3c5b6c;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.sec-05__item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sec-05__item-description {
+  max-width: 300px;
+}
+
+.sec-05__item-image {
+  max-width: 169px;
+}
+
 /* ================================
 スマホレイアウト
 =============================== */
