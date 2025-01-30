@@ -61,8 +61,7 @@
 .cta-02__top-text {
   width: 100vw;
   max-width: 100vw;
-  margin-left: calc(50% - 50vw);
-  max-width: 750px;
+  max-width: 767px;
   margin-bottom: 16px;
   margin-right:auto;
   margin-left:auto;
@@ -174,7 +173,7 @@
   font-size: 32px;
 }
 .sec-03__card-images {
-    gap: 8px;
+    gap: 14px;
 }
 .sec-03__card.__01 {
   .sec-03__card-images {
@@ -211,7 +210,7 @@
 .sec-03__card.__03 {
   .sec-03__card-images {
     grid-template-rows: auto;
-    grid-template-columns: calc(189 / 594 * 100%) 1fr 1fr ;
+    grid-template-columns: 32.2% 1fr 1fr ;
   }
   .sec-03__card-image:nth-child(1) {
     grid-area: 1 / 2 / 5 / 5; 
