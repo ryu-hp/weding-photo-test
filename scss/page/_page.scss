@@ -28,8 +28,10 @@
   // text-shadow: 0 0 8px $color-light-gray;
   white-space: nowrap;
   /* ドロップシャドウ */
-  box-shadow:  -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), /* 157°の影 */
-  0 0 13px rgba(231, 224, 215, 0.36); /* 光彩（外側）を再現 */
+  text-shadow:
+    0 0 8px rgba(231, 224, 215, 0.8),  /* 光彩（外側） */
+    0 0 15px rgba(231, 224, 215, 0.5), /* さらにぼかした光彩 */
+    2px 2px 3px rgba(43, 31, 26, 0.8);  /* ドロップシャドウ */ 
 }
 .kv__texts--main {
     font-size: 32px;

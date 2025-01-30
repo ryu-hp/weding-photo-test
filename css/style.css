@@ -348,8 +348,7 @@ select::-ms-expand {
   font-weight: 600;
   white-space: nowrap;
   /* ドロップシャドウ */
-  -webkit-box-shadow: -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), 0 0 13px rgba(231, 224, 215, 0.36);
-          box-shadow: -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), 0 0 13px rgba(231, 224, 215, 0.36); /* 光彩（外側）を再現 */
+  text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
 }
 
 .kv__texts--main {
