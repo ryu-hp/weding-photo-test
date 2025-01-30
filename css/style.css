@@ -769,6 +769,7 @@ select::-ms-expand {
 .sec-07__card-head {
   font-size: 32px;
   font-family: "utile-display", sans-serif;
+  font-weight: 300;
 }
 
 .sec-07__card-price {
