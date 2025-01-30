@@ -267,7 +267,7 @@ select::-ms-expand {
   position: relative;
   white-space: nowrap;
   font-size: 16px;
-  background: #3c5b6c;
+  background: #6e8895;
 }
 
 .cta-btn__contents {
@@ -941,6 +941,7 @@ select::-ms-expand {
 .sec-08__item-head,
 .sec-08__item-description {
   padding-top: 12px;
+  font-weight: 300;
 }
 
 .fix-contents {
