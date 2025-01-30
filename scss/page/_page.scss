@@ -119,6 +119,12 @@
 }
 
 // sec-02 
+.sec-02 {
+  background-image: url(../image/about-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .sec-02__images {
     position: relative;
     display: block;
@@ -148,16 +154,18 @@
 }
 // sec-03
 .sec-03__card {
-    text-align: center;
+  text-align: center;
+  padding: 30px 16px;
 }
 .sec-03__card + .sec-03__card {
   margin-top: 30px;
 }
 .sec-03__card-head {
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   text-align: center;
   color: $color-blue;
-  font-weight: $bold;
+  font-weight: $normal;
+  font-size: 32px;
 }
 .sec-03__card-images {
     gap: 8px;
@@ -197,7 +205,7 @@
 .sec-03__card.__03 {
   .sec-03__card-images {
     grid-template-rows: auto;
-    grid-template-columns: calc(100 / 312 * 100%) 1fr 1fr ;
+    grid-template-columns: calc(189 / 594 * 100%) 1fr 1fr ;
   }
   .sec-03__card-image:nth-child(1) {
     grid-area: 1 / 2 / 5 / 5; 

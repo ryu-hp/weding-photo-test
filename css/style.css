@@ -188,8 +188,8 @@ select::-ms-expand {
 共通パーツ
 =============================== */
 .section-space {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .margin-t-1 {
@@ -289,8 +289,8 @@ select::-ms-expand {
 
 @media screen and (max-width: 767px) {
   .section-space {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .margin-t-1 {
     margin-top: 16px;
@@ -455,6 +455,13 @@ select::-ms-expand {
   margin-left: calc(50% - 50vw);
 }
 
+.sec-02 {
+  background-image: url(../image/about-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .sec-02__images {
   position: relative;
   display: block;
@@ -490,6 +497,7 @@ select::-ms-expand {
 
 .sec-03__card {
   text-align: center;
+  padding: 30px 16px;
 }
 
 .sec-03__card + .sec-03__card {
@@ -497,10 +505,11 @@ select::-ms-expand {
 }
 
 .sec-03__card-head {
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   text-align: center;
   color: #3c5b6c;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 .sec-03__card-images {
@@ -537,7 +546,7 @@ select::-ms-expand {
 
 .sec-03__card.__03 .sec-03__card-images {
   grid-template-rows: auto;
-  grid-template-columns: 32.0512820513% 1fr 1fr;
+  grid-template-columns: 31.8181818182% 1fr 1fr;
 }
 .sec-03__card.__03 .sec-03__card-image:nth-child(1) {
   grid-area: 1/2/5/5;
