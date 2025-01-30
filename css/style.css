@@ -310,7 +310,7 @@ select::-ms-expand {
     margin-bottom: 32px;
   }
   .section-title::after {
-    width: 252px;
+    width: 160px;
   }
   .card-shadow {
     -webkit-box-shadow: 3.8px 3.8px 4px #bbb7b7;
@@ -993,8 +993,14 @@ select::-ms-expand {
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
   }
+  .sec-02__description {
+    font-size: 15px;
+  }
   .sec-04__item-number {
     top: -16px;
+  }
+  .sec-04__item-head {
+    margin-bottom: 10px;
   }
   .sec-05__item-step {
     width: 18%;
