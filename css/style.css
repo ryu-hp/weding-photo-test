@@ -240,8 +240,8 @@ select::-ms-expand {
 }
 
 .card-shadow {
-  -webkit-box-shadow: 3.8px 3.8px 8px #bbb7b7;
-          box-shadow: 3.8px 3.8px 8px #bbb7b7;
+  -webkit-box-shadow: 3.8px -3.8px 10px #bbb7b7;
+          box-shadow: 3.8px -3.8px 10px #bbb7b7;
 }
 
 .display-grid {
@@ -1005,5 +1005,15 @@ select::-ms-expand {
   .sec-05__item-head {
     font-size: 24px;
     margin-bottom: 12px;
+  }
+  .sec-07__description {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .sec-07__card-description {
+    margin-bottom: 20px;
+  }
+  .sec-07__card-contents {
+    margin-bottom: 20px;
   }
 }
