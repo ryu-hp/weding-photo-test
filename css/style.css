@@ -222,7 +222,7 @@ select::-ms-expand {
   content: "";
   position: absolute;
   display: block;
-  width: 100px;
+  width: 253px;
   bottom: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
