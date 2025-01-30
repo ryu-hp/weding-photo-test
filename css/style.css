@@ -305,9 +305,9 @@ select::-ms-expand {
     margin-bottom: 24px;
   }
   .section-title {
-    font-size: 24px;
+    font-size: 32px;
     padding-bottom: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
   }
   .section-title::after {
     width: 60px;
@@ -346,8 +346,10 @@ select::-ms-expand {
   text-align: center;
   color: #fff;
   font-weight: 600;
-  text-shadow: 0 0 8px #ECECEC;
   white-space: nowrap;
+  /* ドロップシャドウ */
+  -webkit-box-shadow: -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), 0 0 13px rgba(231, 224, 215, 0.36);
+          box-shadow: -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), 0 0 13px rgba(231, 224, 215, 0.36); /* 光彩（外側）を再現 */
 }
 
 .kv__texts--main {
@@ -516,11 +518,11 @@ select::-ms-expand {
   text-align: center;
   color: #3c5b6c;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 20px;
 }
 
 .sec-03__card-images {
-  gap: 14px;
+  gap: 6px;
 }
 
 .sec-03__card.__01 .sec-03__card-images {
@@ -591,9 +593,9 @@ select::-ms-expand {
 
 .sec-04__item-head {
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   color: #3c5b6c;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .sec-04__item-description {
@@ -688,8 +690,8 @@ select::-ms-expand {
 }
 
 .sec-06__item-head {
-  margin-bottom: 32px;
-  font-size: 24px;
+  margin-bottom: 24px;
+  font-size: 20px;
 }
 
 .sec-06__item-list li {
@@ -704,10 +706,8 @@ select::-ms-expand {
   display: block;
   position: absolute;
   left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 12px;
+  top: 10px;
+  width: 10px;
   height: 2px;
   background: #fff;
 }

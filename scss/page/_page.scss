@@ -18,15 +18,18 @@
     width: 100px;
 }
 .kv__texts {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 20%;
-    text-align: center;
-    color: $color-white;
-    font-weight: $bold;
-    text-shadow: 0 0 8px $color-light-gray;
-    white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+  color: $color-white;
+  font-weight: $bold;
+  // text-shadow: 0 0 8px $color-light-gray;
+  white-space: nowrap;
+  /* ドロップシャドウ */
+  box-shadow:  -1.8px 0.9px 8px rgba(43, 31, 26, 0.95), /* 157°の影 */
+  0 0 13px rgba(231, 224, 215, 0.36); /* 光彩（外側）を再現 */
 }
 .kv__texts--main {
     font-size: 32px;
@@ -171,10 +174,10 @@
   text-align: center;
   color: $color-blue;
   font-weight: $normal;
-  font-size: 32px;
+  font-size: 20px;
 }
 .sec-03__card-images {
-    gap: 14px;
+    gap: 6px;
 }
 .sec-03__card.__01 {
   .sec-03__card-images {
@@ -247,9 +250,9 @@
 }
 .sec-04__item-head {
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   color: $color-blue;
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 .sec-04__item-description {
   max-width: 540px;
@@ -326,8 +329,8 @@
  
 }
 .sec-06__item-head {
-  margin-bottom: 32px;
-  font-size: 24px;
+  margin-bottom: 24px;
+  font-size: 20px;
 }
 .sec-06__item-list li {
   font-size: 14px;
@@ -340,9 +343,8 @@
   display: block;
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 12px;
+  top: 10px;
+  width: 10px;
   height: 2px;
   background: $color-white;
 }
