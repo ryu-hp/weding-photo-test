@@ -24,7 +24,8 @@
   top: 20%;
   text-align: center;
   color: $color-white;
-  font-weight: $bold;
+  font-weight: $normal;
+  font-size: 32px;
   // text-shadow: 0 0 8px $color-light-gray;
   white-space: nowrap;
   /* ドロップシャドウ */
@@ -34,11 +35,10 @@
     2px 2px 3px rgba(43, 31, 26, 0.8);  /* ドロップシャドウ */ 
 }
 .kv__texts--main {
-    font-size: 32px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 .kv__texts--sub {
-    font-size: 18px;
+    font-size: 0.5em;
     line-height: 1.5;
     margin-top: 16px;
 }

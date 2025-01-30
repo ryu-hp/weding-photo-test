@@ -345,19 +345,19 @@ select::-ms-expand {
   top: 20%;
   text-align: center;
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 32px;
   white-space: nowrap;
   /* ドロップシャドウ */
   text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
 }
 
 .kv__texts--main {
-  font-size: 32px;
   line-height: 1.5;
 }
 
 .kv__texts--sub {
-  font-size: 18px;
+  font-size: 0.5em;
   line-height: 1.5;
   margin-top: 16px;
 }
@@ -974,17 +974,15 @@ select::-ms-expand {
   }
   .kv__texts {
     top: 20%;
-    text-shadow: 0 0 8px #ECECEC;
+    font-size: 6.9333333333vw;
     text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
   }
   .kv__texts--main {
-    font-size: 28px;
     line-height: 1.5;
   }
   .kv__texts--sub {
-    font-size: 16px;
     line-height: 1.5;
-    margin-top: 16px;
+    margin-top: 0.7em;
   }
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
