@@ -30,6 +30,11 @@
     margin-left: calc(50% - 50vw);
   }
 
+  // sec-04
+  .sec-04__item-number {
+    top: -16px;
+  }
+
   // sec-05
   .sec-05__item-step {
     width: 18%;
@@ -56,5 +61,9 @@
   }
   .sec-07__card-contents {
     margin-bottom: 20px;
+  }
+  .sec-07__card-head {
+    font-size: 24px;
+    font-family: $second-font-family;
   }
 }
