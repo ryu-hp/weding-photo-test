@@ -360,6 +360,12 @@
 }
 
 // sec-07
+.sec-06 {
+  background-image: url(../image/plan-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .sec-07__description {
   font-size: 32px;
   margin-bottom: 54px;
@@ -377,20 +383,20 @@
   background: $color-white;
 }
 .sec-07__card-head {
-  font-size: 40px;
+  font-size: 32px;
 }
 .sec-07__card-price {
-  font-size: 44px;
+  font-size: 24px;
   color: $color-red;
   position: relative;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
   .strong {
     font-weight: $bold;
-    font-size: 56px;
+    font-size: 1.5em;
   }
   .small {
-    font-size: 30px;
+    font-size: 0.75em;
   }
 }
 .sec-07__card-price::after {
@@ -410,7 +416,7 @@
 .sec-07__card-contents {
   display: flex;
   justify-content: center;
-  gap:40px 20px;
+  gap:32px 16px;
   flex-wrap: wrap;
   margin-bottom: 50px;
   max-width: 500px;
@@ -445,11 +451,13 @@
   display: block;
 }
 .sec-07__card-list {
-  column-count: 2;
   margin-bottom: 40px;
   border-top: 2px solid $color-black;
   padding-top: 16px;
   margin-top: 16px;
+  @media screen and (min-width:580px) {
+    column-count: 2;
+  }
 }
 .sec-07__card-list li {
   font-size: 20px;
