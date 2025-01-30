@@ -667,12 +667,17 @@ select::-ms-expand {
 }
 
 .sec-05__item-description {
-  max-width: 300px;
   font-size: 19px;
+  width: 67%;
+  text-align: justify;
+}
+
+.sec-05__item-description .small {
+  font-size: 0.75em;
 }
 
 .sec-05__item-image {
-  max-width: 169px;
+  width: 33%;
 }
 
 .sec-06 {
@@ -986,5 +991,19 @@ select::-ms-expand {
   }
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
+  }
+  .sec-05__item-step {
+    width: 18%;
+  }
+  .sec-05__item-card {
+    padding: 16px 20px;
+    margin-top: 20px;
+  }
+  .sec-05__item-description {
+    font-size: 16px;
+  }
+  .sec-05__item-head {
+    font-size: 24px;
+    margin-bottom: 12px;
   }
 }

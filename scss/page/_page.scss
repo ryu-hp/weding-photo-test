@@ -310,11 +310,15 @@
   justify-content: space-between;
 }
 .sec-05__item-description {
-  max-width: 300px;
   font-size: 19px;
+  width: 67%;
+  text-align: justify;
+}
+.sec-05__item-description .small {
+  font-size: 0.75em;
 }
 .sec-05__item-image {
-  max-width:169px;
+  width: 33%;
 }
 // sec-06
 .sec-06 {
