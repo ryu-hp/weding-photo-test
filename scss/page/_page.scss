@@ -64,6 +64,8 @@
   margin-left: calc(50% - 50vw);
   max-width: 750px;
   margin-bottom: 16px;
+  margin-right:auto;
+  margin-left:auto;
 }
 .cta-02__middle-text {
   font-size: 14px;
@@ -72,6 +74,9 @@
 .cta-02__card {
   box-shadow: 3.48px 7.24px 10px 0px rgba(132, 133, 128, 0.84);
   margin-bottom: 16px;
+  max-width: 698px;
+  margin-right:auto;
+  margin-left:auto;
 }
 .cta-02__bottom-text {
   font-size: 20px;
@@ -280,6 +285,7 @@
 .sec-06__text-contents {
   gap: 48px 24px;
   margin-bottom: 70px;
+  grid-template-rows: repeat(2,1fr);
 }
 .sec-06__item {
  background-color: #9e9a9a; 
@@ -289,11 +295,13 @@
 }
 .sec-06__item-head {
   margin-bottom: 56px;
+  font-size: 32px;
 }
 .sec-06__item-list li {
   font-size: 24px;
   padding-left: 27px;
   position: relative;
+  line-height: 1.5;
 }
 .sec-06__item-list li::before {
   content: "";
@@ -307,7 +315,7 @@
   background: $color-white;
 }
 .sec-06__item-list li + li {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .sec-06__col-wrapper {
   overflow-x: scroll;
