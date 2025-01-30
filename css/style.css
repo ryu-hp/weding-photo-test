@@ -240,8 +240,8 @@ select::-ms-expand {
 }
 
 .card-shadow {
-  -webkit-box-shadow: 3.8px -3.8px 10px #bbb7b7;
-          box-shadow: 3.8px -3.8px 10px #bbb7b7;
+  -webkit-box-shadow: 3.8px 3.8px 4px #bbb7b7;
+          box-shadow: 3.8px 3.8px 4px #bbb7b7;
 }
 
 .display-grid {
@@ -313,8 +313,8 @@ select::-ms-expand {
     width: 252px;
   }
   .card-shadow {
-    -webkit-box-shadow: 4px 4px #bbb7b7;
-            box-shadow: 4px 4px #bbb7b7;
+    -webkit-box-shadow: 3.8px 3.8px 4px #bbb7b7;
+            box-shadow: 3.8px 3.8px 4px #bbb7b7;
   }
 }
 /* ================================
@@ -768,6 +768,7 @@ select::-ms-expand {
 
 .sec-07__card-head {
   font-size: 32px;
+  font-family: "utile-display", sans-serif;
 }
 
 .sec-07__card-price {
