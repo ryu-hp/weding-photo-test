@@ -902,6 +902,13 @@ select::-ms-expand {
 }
 
 .sec-09 {
+  background-image: url(../image/finish-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sec-09 {
   padding-bottom: 80px;
 }
 
