@@ -354,12 +354,14 @@ select::-ms-expand {
 
 .kv__texts--main {
   line-height: 1.5;
+  letter-spacing: 0.2em;
 }
 
 .kv__texts--sub {
   font-size: 0.5em;
   line-height: 1.5;
   margin-top: 16px;
+  letter-spacing: 0.1em;
 }
 
 .cta__contents {
@@ -770,6 +772,7 @@ select::-ms-expand {
   font-size: 32px;
   font-family: "utile-display", sans-serif;
   font-weight: 300;
+  line-height: 1;
 }
 
 .sec-07__card-price {
@@ -1017,6 +1020,9 @@ select::-ms-expand {
   .sec-05__item-head {
     font-size: 24px;
     margin-bottom: 12px;
+  }
+  .sec-07__card-body {
+    padding: 20px;
   }
   .sec-07__description {
     font-size: 20px;
