@@ -504,6 +504,7 @@ select::-ms-expand {
 .sec-03__card {
   text-align: center;
   padding: 30px 16px;
+  background-color: #fff;
 }
 
 .sec-03__card + .sec-03__card {
@@ -675,7 +676,7 @@ select::-ms-expand {
 }
 
 .sec-06__text-contents {
-  gap: 48px 24px;
+  gap: 24px 12px;
   margin-bottom: 70px;
   grid-template-rows: repeat(2, 1fr);
 }
@@ -683,17 +684,17 @@ select::-ms-expand {
 .sec-06__item {
   background-color: #9e9a9a;
   color: #fff;
-  padding: 32px 32px;
+  padding: 16px;
 }
 
 .sec-06__item-head {
-  margin-bottom: 56px;
-  font-size: 32px;
+  margin-bottom: 32px;
+  font-size: 24px;
 }
 
 .sec-06__item-list li {
-  font-size: 24px;
-  padding-left: 27px;
+  font-size: 14px;
+  padding-left: 18px;
   position: relative;
   line-height: 1.5;
 }
@@ -706,13 +707,13 @@ select::-ms-expand {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 15px;
+  width: 12px;
   height: 2px;
   background: #fff;
 }
 
 .sec-06__item-list li + li {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .sec-06__col-wrapper {
