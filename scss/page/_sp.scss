@@ -12,6 +12,10 @@
   .kv__texts {
     top: 20%;
     text-shadow: 0 0 8px $color-light-gray;
+    text-shadow:
+    0 0 8px rgba(231, 224, 215, 0.8),  /* 光彩（外側） */
+    0 0 15px rgba(231, 224, 215, 0.5), /* さらにぼかした光彩 */
+    2px 2px 3px rgba(43, 31, 26, 0.8);  /* ドロップシャドウ */ 
   }
   .kv__texts--main {
     font-size: 28px;
