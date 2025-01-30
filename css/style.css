@@ -495,6 +495,13 @@ select::-ms-expand {
   left: 20%;
 }
 
+.sec-03 {
+  background-image: url(../image/example-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .sec-03__card {
   text-align: center;
   padding: 30px 16px;
@@ -558,6 +565,13 @@ select::-ms-expand {
   grid-area: 3/1/5/2;
 }
 
+.sec-04 {
+  background-image: url(../image/reason-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .sec-04__item {
   position: relative;
   z-index: 1;
@@ -587,6 +601,13 @@ select::-ms-expand {
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
+}
+
+.sec-05 {
+  background-image: url(../image/flow-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sec-05__item {
@@ -645,6 +666,13 @@ select::-ms-expand {
 
 .sec-05__item-image {
   max-width: 169px;
+}
+
+.sec-06 {
+  background-image: url(../image/area-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sec-06__text-contents {
@@ -890,6 +918,7 @@ select::-ms-expand {
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 1024;
 }
 
 .fix-contents a {
