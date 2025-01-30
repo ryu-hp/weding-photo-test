@@ -261,7 +261,7 @@ select::-ms-expand {
   color: #fff;
   font-weight: 600;
   max-width: 300px;
-  width: 100%;
+  width: 80%;
   line-height: 1;
   padding: 16px 16px;
   position: relative;
@@ -377,6 +377,11 @@ select::-ms-expand {
   bottom: 10%;
   width: 100%;
   text-align: center;
+}
+@media screen and (max-width: 531px) {
+  .cta__btn {
+    bottom: 5%;
+  }
 }
 
 .cta-02 {
