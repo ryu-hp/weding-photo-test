@@ -211,7 +211,7 @@ select::-ms-expand {
 .section-title {
   position: relative;
   font-size: 42px;
-  font-weight: 600;
+  font-weight: 300;
   padding-bottom: 30px;
   line-height: 1;
   margin-bottom: 30px;
@@ -310,7 +310,7 @@ select::-ms-expand {
     margin-bottom: 32px;
   }
   .section-title::after {
-    width: 60px;
+    width: 252px;
   }
   .card-shadow {
     -webkit-box-shadow: 4px 4px #bbb7b7;
@@ -460,6 +460,7 @@ select::-ms-expand {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 100px;
 }
 
 .sec-02__images {
@@ -964,7 +965,7 @@ select::-ms-expand {
   .kv__logo {
     top: 20px;
     left: 20px;
-    width: 100px;
+    width: 120px;
   }
   .kv__texts {
     top: 20%;

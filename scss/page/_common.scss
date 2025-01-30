@@ -24,7 +24,7 @@
 .section-title {
   position: relative;
   font-size: 42px;
-  font-weight: $bold;
+  font-weight: $normal;
   padding-bottom: 30px;
   line-height: 1;
   margin-bottom: 30px;
@@ -110,7 +110,7 @@
     margin-bottom: 32px;
   }
   .section-title::after {
-    width: 60px;
+    width: 252px;
   }
   // シャドウ
   .card-shadow {
