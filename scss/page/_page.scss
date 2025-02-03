@@ -498,24 +498,12 @@
 .fix-contents {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 100%;
+  max-width: 624px;
   z-index: 1024;
 }
 .fix-contents a {
   display: block;
   width: 100%;
-}
-.fix-contents__image {
-  max-width: 750px;
-  margin-right:auto;
-  margin-left:auto;
-}
-@media screen and (min-width:751px) {
-  .fix-contents {
-    background-color: #4ca62f;
-  }
-  .fix-contents__image {
-    margin-top: -28px;
-  }
 }

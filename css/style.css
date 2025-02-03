@@ -909,8 +909,9 @@ select::-ms-expand {
 .fix-contents {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 100%;
+  max-width: 624px;
   z-index: 1024;
 }
 
@@ -919,20 +920,6 @@ select::-ms-expand {
   width: 100%;
 }
 
-.fix-contents__image {
-  max-width: 750px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media screen and (min-width: 751px) {
-  .fix-contents {
-    background-color: #4ca62f;
-  }
-  .fix-contents__image {
-    margin-top: -28px;
-  }
-}
 /* ================================
 スマホレイアウト
 =============================== */
@@ -1035,5 +1022,25 @@ select::-ms-expand {
   .sec-07__card-head {
     font-size: 24px;
     font-family: "utile-display", sans-serif;
+  }
+  .fix-contents {
+    bottom: 0;
+    left: 0;
+    right: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  .fix-contents__image {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 751px) {
+  .fix-contents {
+    background-color: #4ca62f;
+  }
+  .fix-contents__image {
+    margin-top: -28px;
   }
 }
