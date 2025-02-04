@@ -802,6 +802,17 @@ select::-ms-expand {
   width: 32%;
 }
 
+.sec-07__card-image picture {
+  display: block;
+  height: 100%;
+}
+
+.sec-07__card-image img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .sec-07__card + .sec-07__card {
   margin-top: 80px;
 }
@@ -916,13 +927,20 @@ select::-ms-expand {
 
 .sec-07__card-list {
   margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media screen and (min-width: 580px) {
-  .sec-07__card-list {
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
-  }
+
+.sec-07__card-list li:nth-child(odd) {
+  -ms-flex-preferred-size: 290px;
+      flex-basis: 290px;
+  margin-right: 10px;
 }
 
 .sec-07__card-list li {
@@ -937,10 +955,6 @@ select::-ms-expand {
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.sec-07__card-list li:nth-child(1) {
-  margin-right: 10px;
 }
 
 .sec-08__item-quastion,
@@ -1263,6 +1277,12 @@ PC用背景
   }
   .sec-07__card-image {
     width: 100%;
+  }
+  .sec-07__card-image picture {
+    height: auto;
+  }
+  .sec-07__card-image img {
+    height: auto;
   }
   .sec-07__card-body {
     padding: 20px;
