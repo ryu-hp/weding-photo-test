@@ -217,17 +217,17 @@
   }
 
   // sec-07 
-  // .sec-07 {
-  //   background-image: url(../image/plan-bg.webp);
-  //   background-size: cover;
-  //   background-position: center;
-  //   background-repeat: no-repeat;
-  // }
   .sec-07__card {
     max-width: 674px;
+    display: block;
+  }
+  .sec-07__card-image {
+    width: 100%;
   }
   .sec-07__card-body {
     padding: 20px;
+    width: 100%;
+    text-align: left;
   }
   .sec-07__description {
     font-size: 20px;
@@ -236,15 +236,18 @@
   .sec-07__card-head {
     display: block;
   }
+  .sec-07__card-head-main {
+    font-size: 24px;
+  }
   .sec-07__card-description {
     margin-bottom: 20px;
+    text-align: left;
   }
   .sec-07__card-contents {
     margin-bottom: 20px;
   }
-  .sec-07__card-head {
-    font-size: 24px;
-    font-family: $second-font-family;
+  .sec-07__card-alert {
+    display: block;
   }
   // fix-contents 
   .fix-contents {
