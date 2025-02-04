@@ -388,11 +388,6 @@ select::-ms-expand {
   text-align: center;
 }
 
-.cta-02 {
-  background: #e9eae2;
-  padding: 30px 0;
-}
-
 .cta-02__top-text {
   width: 100vw;
   max-width: 100vw;
@@ -461,21 +456,32 @@ select::-ms-expand {
 .sec-01__image {
   max-width: 353px;
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sec-01__image video {
   aspect-ratio: 353/203;
+  width: 100%;
+  display: block;
 }
 
 .sec-02 {
-  background-image: url(../image/about-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   padding-top: 100px;
 }
 
+.sec-02__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+
 .sec-02__images {
+  width: 294px;
   position: relative;
   display: block;
 }
@@ -484,12 +490,12 @@ select::-ms-expand {
   content: "";
   display: block;
   width: 100%;
-  padding-top: 135.7798165138%;
+  padding-top: 128.9115646259%;
 }
 
 .sec-02__image {
   position: absolute;
-  width: 47.7064220183%;
+  width: 64.9659863946%;
 }
 
 .sec-02__image.__01 {
@@ -498,8 +504,9 @@ select::-ms-expand {
 }
 
 .sec-02__image.__02 {
-  top: 10%;
+  bottom: 0;
   right: 0;
+  width: 48.6394557823%;
   z-index: 1;
 }
 
@@ -925,6 +932,23 @@ select::-ms-expand {
   width: 100%;
 }
 
+/* =======================
+PC用背景
+======================= */
+.about-bg-wrapper {
+  background-image: url(../image/pc/about-bg-PC.webp);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.example-bg-wrapper {
+  background-image: url(../image/pc/example-bg-PC.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* ================================
 スマホレイアウト
 =============================== */
@@ -955,6 +979,9 @@ select::-ms-expand {
     left: 50%;
     bottom: 10%;
   }
+  /* =======================
+  PC用背景
+  ======================= */
 }
 @media screen and (max-width: 767px) and (max-width: 531px) {
   .cta__btn {
@@ -962,6 +989,10 @@ select::-ms-expand {
   }
 }
 @media screen and (max-width: 767px) {
+  .cta-02 {
+    background: #e9eae2;
+    padding: 30px 0;
+  }
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
   }
@@ -975,6 +1006,29 @@ select::-ms-expand {
   }
   .sec-01__image video {
     aspect-ratio: 1024/565;
+  }
+  .sec-02 {
+    background-image: url(../image/about-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+  .sec-02__inner {
+    display: block;
+  }
+  .sec-02__images {
+    width: 100%;
+  }
+  .sec-02__images::before {
+    padding-top: 135.7798165138%;
+  }
+  .sec-02__image {
+    width: 47.7064220183%;
+  }
+  .sec-02__image.__02 {
+    top: 10%;
+    bottom: auto;
   }
   .sec-03__card.__01 .sec-03__card-images {
     grid-template-rows: auto;
@@ -1071,5 +1125,11 @@ select::-ms-expand {
   }
   .fix-contents__image {
     margin-top: -28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-bg-wrapper,
+  .example-bg-wrapper {
+    background-image: none;
   }
 }

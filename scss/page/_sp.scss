@@ -38,6 +38,10 @@
     }
   }
   // cta-02
+  .cta-02 {
+    background: $color-yellow-bg;
+    padding:30px 0;
+  }
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
   }
@@ -53,7 +57,30 @@
   .sec-01__image video {
     aspect-ratio: 1024 / 565;
   }
-
+  // sec-02 
+  .sec-02 {
+    background-image: url(../image/about-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+  .sec-02__inner {
+    display: block;
+  }
+  .sec-02__images {
+    width: 100%;
+  }
+  .sec-02__images::before {
+    padding-top: calc(444 / 327 * 100%) ;
+  }
+  .sec-02__image {
+    width: calc( 156 / 327 * 100% );
+  }
+  .sec-02__image.__02 {
+    top: 10%;
+    bottom: auto;
+  }
   // sec-03
   .sec-03__card.__01 {
     .sec-03__card-images {
@@ -165,5 +192,12 @@
     .fix-contents__image {
       margin-top: -28px;
     }
+  }
+  /* =======================
+  PC用背景
+  ======================= */
+  .about-bg-wrapper,
+  .example-bg-wrapper {
+    background-image: none;
   }
 }
