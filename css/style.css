@@ -391,6 +391,8 @@ select::-ms-expand {
 .cta-02__pc-wrapper {
   max-width: 604px;
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .cta-02__top-text {
@@ -457,8 +459,8 @@ select::-ms-expand {
 .cta-02__btn {
   width: 100%;
   position: absolute;
-  bottom: 20%;
-  left: 30%;
+  bottom: 15%;
+  left: 39%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
