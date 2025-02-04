@@ -1092,6 +1092,9 @@ PC用背景
 スマホレイアウト
 =============================== */
 @media screen and (max-width: 767px) {
+  .kv {
+    margin-bottom: 40px;
+  }
   .kv__logo {
     top: 20px;
     left: 20px;
