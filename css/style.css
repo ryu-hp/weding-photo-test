@@ -926,7 +926,7 @@ select::-ms-expand {
 }
 
 .sec-07__card-list {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1305,6 +1305,9 @@ PC用背景
   }
   .sec-07__card-contents {
     margin-bottom: 20px;
+  }
+  .sec-07__card-list {
+    margin-bottom: 40px;
   }
   .sec-07__card-alert {
     display: block;
