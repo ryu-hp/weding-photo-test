@@ -809,6 +809,16 @@ select::-ms-expand {
   position: relative;
   padding-bottom: 16px;
   margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
 }
 
 .sec-07__card-head::after {
@@ -896,9 +906,6 @@ select::-ms-expand {
 
 .sec-07__card-list {
   margin-bottom: 40px;
-  border-top: 2px solid #000;
-  padding-top: 16px;
-  margin-top: 16px;
 }
 @media screen and (min-width: 580px) {
   .sec-07__card-list {
@@ -1249,6 +1256,9 @@ PC用背景
   .sec-07__description {
     font-size: 20px;
     margin-bottom: 24px;
+  }
+  .sec-07__card-head {
+    display: block;
   }
   .sec-07__card-description {
     margin-bottom: 20px;
