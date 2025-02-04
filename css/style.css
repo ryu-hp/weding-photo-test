@@ -350,7 +350,7 @@ select::-ms-expand {
           transform: translateX(-50%);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  top: 20%;
+  top: 50%;
   text-align: center;
   color: #fff;
   font-weight: 300;
