@@ -558,6 +558,33 @@ select::-ms-expand {
   font-size: 20px;
 }
 
+.sec-03__card-head .line {
+  position: relative;
+  display: inline-block;
+  padding: 3px 16px;
+}
+
+.sec-03__card-head .line::before,
+.sec-03__card-head .line::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  border-top: 1px solid #3c5b6c;
+  border-bottom: 1px solid #3c5b6c;
+}
+
+.sec-03__card-head .line::before {
+  top: 0;
+}
+
+.sec-03__card-head .line::after {
+  bottom: 0;
+}
+
 .sec-03__card-images {
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
