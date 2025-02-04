@@ -1287,6 +1287,7 @@ PC用背景
   .sec-05__item-number {
     -webkit-box-shadow: 0 0 4px #ECECEC;
             box-shadow: 0 0 4px #ECECEC;
+    border-radius: 50%;
   }
   .sec-05__item-arrow {
     display: none;
@@ -1299,10 +1300,14 @@ PC用背景
   }
   .sec-05__item-description {
     font-size: 16px;
+    width: 100%;
   }
   .sec-05__item-head {
     font-size: 24px;
     margin-bottom: 12px;
+  }
+  .sec-05__item-image {
+    display: none;
   }
   .sec-06 {
     background-image: url(../image/area-bg.webp);
