@@ -59,8 +59,10 @@ a {
           font-feature-settings: "palt";
 }
 
-body {
-  background: #F6F6F6;
+@media screen and (max-width: 767px) {
+  body {
+    background-color: #F6F6F6;
+  }
 }
 
 *,
@@ -958,6 +960,10 @@ select::-ms-expand {
   left: 0;
 }
 
+.sec-08 {
+  background-color: #F6F6F6;
+}
+
 .sec-08__item-quastion,
 .sec-08__item-answer {
   display: -webkit-box;
@@ -989,18 +995,30 @@ select::-ms-expand {
 }
 
 .sec-09 {
-  background-image: url(../image/finish-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.sec-09 {
   padding-bottom: 80px;
 }
 
-.sec-09__body > p:first-child {
-  margin-bottom: 40px;
+.sec-09 .section-title {
+  margin-bottom: 60px;
+}
+
+.sec-09__inner {
+  max-width: 812px;
+}
+
+.sec-09__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.sec-09__text > p {
+  text-align: left;
+}
+
+.sec-09__text > p:first-child {
+  margin-bottom: 50px;
 }
 
 .sec-09__text {
@@ -1008,7 +1026,7 @@ select::-ms-expand {
 }
 
 .sec-o9__image {
-  max-width: 392px;
+  max-width: 252px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1052,18 +1070,22 @@ PC用背景
   padding-bottom: 60px;
 }
 
-.flow-bg-wrapper,
-.plan-bg-wrapper {
+.flow-bg-wrapper {
   background-color: #F6F6F6;
   padding-bottom: 80px;
 }
 
 .area-bg-wrapper {
-  background-image: url(../image/pc/area-bg-PC.webp);
+  background-image: url(../image/pc/area-bg-pc.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 60px;
+}
+
+.plan-bg-wrapper {
+  background-color: #e9eae2;
+  padding-bottom: 80px;
 }
 
 /* ================================
@@ -1313,6 +1335,21 @@ PC用背景
   .sec-07__card-alert {
     display: block;
     font-size: 20px;
+  }
+  .sec-09 .section-title {
+    margin-bottom: 24px;
+  }
+  .sec-09__body {
+    display: block;
+  }
+  .sec-09__text > p {
+    text-align: center;
+  }
+  .sec-09__text > p:first-child {
+    margin-bottom: 40px;
+  }
+  .sec-o9__image {
+    max-width: 392px;
   }
   .fix-contents {
     bottom: 0;

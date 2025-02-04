@@ -47,6 +47,9 @@ a {
     font-feature-settings: "palt";
 }
 body {
-    background: $color-white-bg;
+    @include mq(md) {
+        background-color: $color-white-bg;
+    }
 }
+
 //base_laout

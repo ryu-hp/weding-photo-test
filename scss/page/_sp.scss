@@ -259,6 +259,22 @@
     display: block;
     font-size: 20px;
   }
+  // sec-09
+  .sec-09 .section-title {
+    margin-bottom: 24px;
+  }
+  .sec-09__body {
+    display: block;
+  }
+  .sec-09__text > p {
+    text-align: center;
+  }
+  .sec-09__text > p:first-child {
+    margin-bottom: 40px;
+  }
+  .sec-o9__image {
+    max-width: 392px ;
+  }
   // fix-contents 
   .fix-contents {
     bottom: 0;

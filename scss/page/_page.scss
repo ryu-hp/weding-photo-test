@@ -520,6 +520,9 @@
 }
 
 // .sec-08
+.sec-08 {
+  background-color: $color-white-bg;
+}
 .sec-08__item-quastion,
 .sec-08__item-answer {
   display: flex;
@@ -544,22 +547,33 @@
 }
 // .sec-09 
 .sec-09 {
-  background-image: url(../image/finish-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.sec-09 {
+  // background-image: url(../image/finish-bg.webp);
+  // background-size: cover;
+  // background-position: center;
+  // background-repeat: no-repeat;
   padding-bottom: 80px
 }
-.sec-09__body > p:first-child {
-  margin-bottom: 40px;
+.sec-09 .section-title {
+  margin-bottom: 60px;
+}
+.sec-09__inner {
+  max-width: 812px;
+}
+.sec-09__body {
+  display: flex;
+  gap: 30px;
+}
+.sec-09__text > p {
+  text-align: left;
+}
+.sec-09__text > p:first-child {
+  margin-bottom: 50px;
 }
 .sec-09__text {
   margin-bottom: 70px;
 }
 .sec-o9__image {
-  max-width: 392px ;
+  max-width: 252px ;
   margin-right:auto;
   margin-left:auto;
 }
@@ -599,15 +613,18 @@ PC用背景
   background-repeat: no-repeat;
   padding-bottom: 60px;
 }
-.flow-bg-wrapper,
-.plan-bg-wrapper {
+.flow-bg-wrapper {
  background-color: $color-white-bg; 
  padding-bottom: 80px;
 }
 .area-bg-wrapper {
-  background-image: url(../image/pc/area-bg-PC.webp);
+  background-image: url(../image/pc/area-bg-pc.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 60px;
+}
+.plan-bg-wrapper {
+  background-color: $color-yellow-bg; 
+  padding-bottom: 80px;
 }
