@@ -662,10 +662,7 @@ select::-ms-expand {
 }
 
 .sec-05 {
-  background-image: url(../image/flow-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #e9eae2;
 }
 
 .sec-05__item {
@@ -731,13 +728,6 @@ select::-ms-expand {
   width: 33%;
 }
 
-.sec-06 {
-  background-image: url(../image/area-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .sec-06__text-contents {
   gap: 24px 12px;
   margin-bottom: 70px;
@@ -785,16 +775,14 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
-  min-width: 1600px;
-  margin: 8px;
-}
-
-.sec-06 {
-  background-image: url(../image/plan-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 38px;
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sec-07__description {
@@ -818,6 +806,23 @@ select::-ms-expand {
 }
 
 .sec-07__card-head {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.sec-07__card-head::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+
+.sec-07__card-head-main {
   font-size: 32px;
   font-family: "utile-display", sans-serif;
   font-weight: 300;
@@ -827,9 +832,6 @@ select::-ms-expand {
 .sec-07__card-price {
   font-size: 24px;
   color: #c14040;
-  position: relative;
-  padding-bottom: 16px;
-  margin-bottom: 16px;
 }
 .sec-07__card-price .strong {
   font-weight: 600;
@@ -837,17 +839,6 @@ select::-ms-expand {
 }
 .sec-07__card-price .small {
   font-size: 0.75em;
-}
-
-.sec-07__card-price::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: #000;
 }
 
 .sec-07__card-description {
@@ -1018,6 +1009,7 @@ PC用背景
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
+  padding-top: 60px;
 }
 
 .example-bg-wrapper {
@@ -1025,11 +1017,21 @@ PC用背景
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 60px;
 }
 
-.flow-bg-wrapper {
+.flow-bg-wrapper,
+.plan-bg-wrapper {
   background-color: #F6F6F6;
   padding-bottom: 80px;
+}
+
+.area-bg-wrapper {
+  background-image: url(../image/pc/area-bg-PC.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
 }
 
 /* ================================
@@ -1201,6 +1203,13 @@ PC用背景
   .sec-04__item + .sec-04__item {
     margin-top: 80px;
   }
+  .sec-05 {
+    background-color: transparent;
+    background-image: url(../image/flow-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .sec-05__item-step {
     width: 18%;
   }
@@ -1214,6 +1223,25 @@ PC用背景
   .sec-05__item-head {
     font-size: 24px;
     margin-bottom: 12px;
+  }
+  .sec-06 {
+    background-image: url(../image/area-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sec-06__calcel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+    min-width: 1600px;
+    max-width: none;
+    margin: 8px;
+  }
+  .sec-07__card {
+    max-width: 674px;
   }
   .sec-07__card-body {
     padding: 20px;
@@ -1255,10 +1283,13 @@ PC用背景
 }
 @media screen and (max-width: 767px) {
   .about-bg-wrapper,
-  .example-bg-wrapper {
+  .example-bg-wrapper,
+  .area-bg-wrapper {
     background-image: none;
+    padding: 0;
   }
-  .flow-bg-wrapper {
+  .flow-bg-wrapper,
+  .plan-bg-wrapper {
     padding-bottom: 40px;
   }
 }
