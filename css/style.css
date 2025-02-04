@@ -463,6 +463,10 @@ select::-ms-expand {
           transform: translateX(-50%);
 }
 
+.sec-01 {
+  margin-top: 24px;
+}
+
 .sec-01__image {
   max-width: 353px;
   width: 100%;
@@ -1021,6 +1025,9 @@ PC用背景
     position: static;
     -webkit-transform: none;
             transform: none;
+  }
+  .sec-01 {
+    margin-top: 0;
   }
   .sec-01__image {
     width: 100vw;
