@@ -48,6 +48,14 @@
   .sec-02__description {
     font-size: 15px;
   }
+  .cta-02__pc-wrapper {
+    max-width: 100%;
+  }
+  .cta-02__btn {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
   // sec-01
   .sec-01__image {
     width: 100vw;
