@@ -390,6 +390,10 @@ select::-ms-expand {
   text-align: center;
 }
 
+.cta._02 .cta__btn {
+  left: 31%;
+}
+
 .cta-02__pc-wrapper {
   max-width: 604px;
   position: relative;
