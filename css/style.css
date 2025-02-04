@@ -1285,8 +1285,8 @@ PC用背景
     position: absolute;
   }
   .sec-05__item-number {
-    -webkit-box-shadow: 0 0 4px #ECECEC;
-            box-shadow: 0 0 4px #ECECEC;
+    -webkit-box-shadow: 0 0 4px #ccc;
+            box-shadow: 0 0 4px #ccc;
     border-radius: 50%;
   }
   .sec-05__item-arrow {
