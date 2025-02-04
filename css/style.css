@@ -488,6 +488,17 @@ select::-ms-expand {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 50px;
+  max-width: 763px;
+}
+
+.sec-02 .section-title {
+  text-align: left;
+}
+
+.sec-02 .section-title::after {
+  -webkit-transform: none;
+          transform: none;
+  left: 0;
 }
 
 .sec-02__images {
@@ -523,13 +534,6 @@ select::-ms-expand {
 .sec-02__image.__03 {
   bottom: 0;
   left: 20%;
-}
-
-.sec-03 {
-  background-image: url(../image/example-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .sec-03__card {
@@ -948,7 +952,7 @@ PC用背景
 .about-bg-wrapper {
   background-image: url(../image/pc/about-bg-PC.webp);
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
@@ -1036,6 +1040,17 @@ PC用背景
   .sec-02__inner {
     display: block;
   }
+  .sec-02 .section-title {
+    text-align: center;
+  }
+  .sec-02 .section-title::after {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+  }
+  .sec-02__description {
+    text-align: center;
+  }
   .sec-02__images {
     width: 100%;
   }
@@ -1048,6 +1063,12 @@ PC用背景
   .sec-02__image.__02 {
     top: 10%;
     bottom: auto;
+  }
+  .sec-03 {
+    background-image: url(../image/example-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .sec-03__card.__01 .sec-03__card-images {
     grid-template-rows: auto;

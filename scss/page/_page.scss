@@ -143,6 +143,14 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  max-width: 763px;
+}
+.sec-02 .section-title {
+  text-align: left;
+}
+.sec-02 .section-title::after {
+  transform: none;
+  left: 0;
 }
 .sec-02__images {
   width: 294px;
@@ -174,12 +182,7 @@
   left: 20%;
 }
 // sec-03
-.sec-03 {
-  background-image: url(../image/example-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 .sec-03__card {
   text-align: center;
   padding: 30px 16px;
@@ -525,7 +528,7 @@ PC用背景
 .about-bg-wrapper {
   background-image: url(../image/pc/about-bg-PC.webp);
   background-size: cover;
-  background-position:bottom center;
+  background-position:bottom;
   background-repeat: no-repeat;
 }
 .example-bg-wrapper {

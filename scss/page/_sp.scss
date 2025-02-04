@@ -76,6 +76,16 @@
   .sec-02__inner {
     display: block;
   }
+  .sec-02 .section-title {
+    text-align: center;
+  }
+  .sec-02 .section-title::after {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .sec-02__description {
+    text-align: center;
+  }
   .sec-02__images {
     width: 100%;
   }
@@ -90,6 +100,12 @@
     bottom: auto;
   }
   // sec-03
+  .sec-03 {
+    background-image: url(../image/example-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .sec-03__card.__01 {
     .sec-03__card-images {
       grid-template-rows: auto;
