@@ -236,12 +236,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 70px 40px;
+  justify-content: center;
 }
 .sec-04__item {
   position: relative;
   z-index: 1;
   background-color: $color-white;
-  padding: 36px 25px 40px;
+  padding: 36px 25px 24px;
+  max-width: 418px;
+  width: 100%;
 }
 .sec-04__item::before ,
 .sec-04__item::after {
