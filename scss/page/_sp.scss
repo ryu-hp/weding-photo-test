@@ -109,9 +109,6 @@
     background-position: center;
     background-repeat: no-repeat;
   }
-  .sec-03__card-head {
-    
-  }
   .sec-03__card.__01 {
     .sec-03__card-images {
       grid-template-rows: auto;
@@ -161,13 +158,26 @@
     }
   }
   // sec-04
+  .sec-04 {
+    background-image: url(../image/reason-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sec-04__body {
+    display: block;
+  }
   .sec-04__item-number {
-    top: -16px;
+    top: 10px;
+    left: 15px;
+    width: calc(210 / 750 * 100%);
   }
   .sec-04__item-head {
     margin-bottom: 10px;
   }
-
+  .sec-04__item + .sec-04__item {
+    margin-top: 80px;
+  }
   // sec-05
   .sec-05__item-step {
     width: 18%;
@@ -230,4 +240,7 @@
   .example-bg-wrapper {
     background-image: none;
   }
+  .flow-bg-wrapper {
+    padding-bottom: 40px;
+   }
 }

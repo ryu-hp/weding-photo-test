@@ -240,8 +240,8 @@ select::-ms-expand {
 }
 
 .card-shadow {
-  -webkit-box-shadow: 3.8px 3.8px 4px #bbb7b7;
-          box-shadow: 3.8px 3.8px 4px #bbb7b7;
+  -webkit-box-shadow: 3.8px 3.8px 8px #bbb7b7;
+          box-shadow: 3.8px 3.8px 8px #bbb7b7;
 }
 
 .display-grid {
@@ -574,7 +574,7 @@ select::-ms-expand {
   display: block;
   content: "";
   width: 100%;
-  height: 2px;
+  height: 4px;
   border-top: 1px solid #3c5b6c;
   border-bottom: 1px solid #3c5b6c;
 }
@@ -592,28 +592,59 @@ select::-ms-expand {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.sec-04 {
-  background-image: url(../image/reason-bg.webp);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.sec-04__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 70px 40px;
 }
 
 .sec-04__item {
   position: relative;
   z-index: 1;
+  background-color: #fff;
+  padding: 36px 25px 40px;
 }
 
-.sec-04__item + .sec-04__item {
-  margin-top: 80px;
+.sec-04__item::before,
+.sec-04__item::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 40px;
+}
+
+.sec-04__item::before {
+  top: 0;
+  left: 0;
+  -webkit-transform: translate(-50%, -25%);
+          transform: translate(-50%, -25%);
+  border-top: 2px solid #3c5b6c;
+  border-left: 2px solid #3c5b6c;
+}
+
+.sec-04__item::after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translate(50%, 25%);
+          transform: translate(50%, 25%);
+  border-bottom: 2px solid #3c5b6c;
+  border-right: 2px solid #3c5b6c;
 }
 
 .sec-04__item-number {
   position: absolute;
-  width: 28%;
+  width: 121px;
   z-index: -1;
-  top: -40px;
-  left: 0;
+  top: 20px;
+  left: 25px;
 }
 
 .sec-04__item-head {
@@ -996,6 +1027,11 @@ PC用背景
   background-repeat: no-repeat;
 }
 
+.flow-bg-wrapper {
+  background-color: #F6F6F6;
+  padding-bottom: 80px;
+}
+
 /* ================================
 スマホレイアウト
 =============================== */
@@ -1145,11 +1181,25 @@ PC用背景
   .sec-03__card.__03 .sec-03__card-image:nth-child(3) {
     grid-area: 3/1/5/2;
   }
+  .sec-04 {
+    background-image: url(../image/reason-bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sec-04__body {
+    display: block;
+  }
   .sec-04__item-number {
-    top: -16px;
+    top: 10px;
+    left: 15px;
+    width: 28%;
   }
   .sec-04__item-head {
     margin-bottom: 10px;
+  }
+  .sec-04__item + .sec-04__item {
+    margin-top: 80px;
   }
   .sec-05__item-step {
     width: 18%;
@@ -1207,5 +1257,8 @@ PC用背景
   .about-bg-wrapper,
   .example-bg-wrapper {
     background-image: none;
+  }
+  .flow-bg-wrapper {
+    padding-bottom: 40px;
   }
 }
