@@ -261,7 +261,7 @@ select::-ms-expand {
   color: #fff;
   font-weight: 600;
   max-width: 300px;
-  width: 80%;
+  width: 254px;
   line-height: 1;
   padding: 16px 16px;
   position: relative;
@@ -316,6 +316,10 @@ select::-ms-expand {
     -webkit-box-shadow: 3.8px 3.8px 4px #bbb7b7;
             box-shadow: 3.8px 3.8px 4px #bbb7b7;
   }
+  .cta-btn {
+    width: 80%;
+    max-width: 300px;
+  }
 }
 /* ================================
 ページ全体レイアウト
@@ -342,11 +346,13 @@ select::-ms-expand {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   top: 20%;
   text-align: center;
   color: #fff;
   font-weight: 300;
-  font-size: 32px;
+  font-size: 40px;
   white-space: nowrap;
   /* ドロップシャドウ */
   text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
@@ -358,7 +364,7 @@ select::-ms-expand {
 }
 
 .kv__texts--sub {
-  font-size: 0.5em;
+  font-size: 0.6em;
   line-height: 1.5;
   margin-top: 16px;
   letter-spacing: 0.1em;
@@ -366,24 +372,20 @@ select::-ms-expand {
 
 .cta__contents {
   position: relative;
-  max-width: 704px;
+  max-width: 610px;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
 }
 
 .cta__btn {
   position: absolute;
-  left: 50%;
+  left: 68%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 10%;
+  bottom: 5%;
   width: 100%;
   text-align: center;
-}
-@media screen and (max-width: 531px) {
-  .cta__btn {
-    bottom: 5%;
-  }
 }
 
 .cta-02 {
@@ -931,6 +933,8 @@ select::-ms-expand {
   }
   .kv__texts {
     top: 20%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     font-size: 6.9333333333vw;
     text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
   }
@@ -941,6 +945,20 @@ select::-ms-expand {
     line-height: 1.5;
     margin-top: 0.7em;
   }
+  .cta__contents {
+    max-width: 704px;
+  }
+  .cta__btn {
+    left: 50%;
+    bottom: 10%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 531px) {
+  .cta__btn {
+    bottom: 5%;
+  }
+}
+@media screen and (max-width: 767px) {
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);
   }

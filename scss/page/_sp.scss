@@ -11,6 +11,7 @@
   }
   .kv__texts {
     top: 20%;
+    transform: translateX(-50%);
     font-size: calc(52 / 750* 100vw);
     text-shadow:
     0 0 8px rgba(231, 224, 215, 0.8),  /* 光彩（外側） */
@@ -25,6 +26,17 @@
     margin-top: 0.7em;
   }
 
+  // cta 
+  .cta__contents {
+    max-width: 704px;
+  }
+  .cta__btn {
+    left: 50%;
+    bottom: 10%;
+    @media screen and (max-width:531px) {
+      bottom: 5%;
+    }
+  }
   // cta-02
   .cta-02__top-text {
     margin-left: calc(50% - 50vw);

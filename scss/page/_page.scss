@@ -21,12 +21,12 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  transform: translate(-50%,-50%);
   top: 20%;
   text-align: center;
   color: $color-white;
   font-weight: $normal;
-  font-size: 32px;
-  // text-shadow: 0 0 8px $color-light-gray;
+  font-size: 40px;
   white-space: nowrap;
   /* ドロップシャドウ */
   text-shadow:
@@ -39,7 +39,7 @@
   letter-spacing: 0.2em;
 }
 .kv__texts--sub {
-  font-size: 0.5em;
+  font-size: 0.6em;
   line-height: 1.5;
   margin-top: 16px;
   letter-spacing: 0.1em;
@@ -48,20 +48,18 @@
 // cta 
 .cta__contents {
     position: relative;
-    max-width: 704px;
+    max-width: 610px;
     margin-right:auto;
     margin-left:auto;
+    width: 100%;
 }
 .cta__btn {
     position: absolute;
-    left: 50%;
+    left: 68%;
     transform: translateX(-50%);
-    bottom: 10%;
+    bottom: 5%;
     width: 100%;
     text-align: center;
-    @media screen and (max-width:531px) {
-      bottom: 5%;
-    }
 }
 // cta-02
 .cta-02 {

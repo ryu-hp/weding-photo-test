@@ -68,7 +68,7 @@
   color: $color-white;
   font-weight: $bold;
   max-width: 300px;
-  width: 80%;
+  width: 254px;
   line-height: 1;
   padding: 16px 16px;
   position: relative;
@@ -115,5 +115,10 @@
   // シャドウ
   .card-shadow {
     box-shadow: 3.8px 3.8px 4px $color-card-gray-bg ;
+  }
+  // ボタン
+  .cta-btn {
+    width: 80%;
+    max-width: 300px;
   }
 }
