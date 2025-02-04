@@ -319,7 +319,6 @@ select::-ms-expand {
             box-shadow: 3.8px 3.8px 4px #bbb7b7;
   }
   .cta-btn {
-    width: 80%;
     max-width: 300px;
   }
 }
@@ -1276,12 +1275,27 @@ PC用背景
     background-position: center;
     background-repeat: no-repeat;
   }
+  .sec-05__item {
+    position: relative;
+  }
   .sec-05__item-step {
     width: 18%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .sec-05__item-number {
+    -webkit-box-shadow: 0 0 4px #ECECEC;
+            box-shadow: 0 0 4px #ECECEC;
+  }
+  .sec-05__item-arrow {
+    display: none;
   }
   .sec-05__item-card {
     padding: 16px 20px;
     margin-top: 20px;
+    width: 91%;
+    margin-left: auto;
   }
   .sec-05__item-description {
     font-size: 16px;

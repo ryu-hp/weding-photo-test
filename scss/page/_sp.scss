@@ -189,12 +189,26 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .sec-05__item {
+    position: relative;
+  }
   .sec-05__item-step {
     width: 18%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .sec-05__item-number {
+    box-shadow: 0 0 4px $color-light-gray;
+  }
+  .sec-05__item-arrow {
+    display: none;
   }
   .sec-05__item-card {
     padding: 16px 20px;
     margin-top: 20px;
+    width: 91%;
+    margin-left: auto;
   }
   .sec-05__item-description {
     font-size: 16px;
