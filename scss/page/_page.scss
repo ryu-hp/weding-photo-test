@@ -481,7 +481,7 @@
 }
 .sec-07__card-alert {
   color: $color-blue;
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
   padding-left: 30px;
   display: inline-block;
@@ -500,6 +500,7 @@
   max-width: 550px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
 .sec-07__card-list li:nth-child(odd) {
   flex-basis: 290px;
