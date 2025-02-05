@@ -1006,7 +1006,17 @@ select::-ms-expand {
   color: #3c5b6c;
 }
 
+.sec-08__item-head,
+.sec-08__item-description {
+  padding-top: 12px;
+  font-weight: 300;
+}
+
 .sec-09 {
+  background-image: url(../image/finish-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-bottom: 80px;
 }
 
@@ -1041,12 +1051,6 @@ select::-ms-expand {
   max-width: 252px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.sec-08__item-head,
-.sec-08__item-description {
-  padding-top: 12px;
-  font-weight: 300;
 }
 
 .fix-contents {
