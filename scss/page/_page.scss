@@ -23,16 +23,17 @@
   transform: translateX(-50%);
   transform: translate(-50%,-50%);
   top: 50%;
-  text-align: center;
-  color: $color-white;
-  font-weight: $normal;
-  font-size: 40px;
-  white-space: nowrap;
+  // text-align: center;
+  // color: $color-white;
+  // font-weight: $normal;
+  // font-size: 40px;
+  // white-space: nowrap;
   /* ドロップシャドウ */
-  text-shadow:
-    0 0 8px rgba(231, 224, 215, 0.8),  /* 光彩（外側） */
-    0 0 15px rgba(231, 224, 215, 0.5), /* さらにぼかした光彩 */
-    2px 2px 3px rgba(43, 31, 26, 0.8);  /* ドロップシャドウ */ 
+  // text-shadow:
+  //   0 0 8px rgba(231, 224, 215, 0.8),  
+  //   0 0 15px rgba(231, 224, 215, 0.5), 
+  //   2px 2px 3px rgba(43, 31, 26, 0.8); 
+  width: calc(481 / 1280 * 100vw);
 }
 .kv__texts--main {
   line-height: 1.5;
