@@ -974,6 +974,7 @@ select::-ms-expand {
 
 .sec-08 {
   background-color: #F6F6F6;
+  padding-bottom: 100px;
 }
 
 .sec-08__item-quastion,
@@ -1378,6 +1379,9 @@ PC用背景
   .sec-07__card-alert {
     display: block;
     font-size: 20px;
+  }
+  .sec-08 {
+    padding-bottom: 80px;
   }
   .sec-09 {
     padding-bottom: 80px;
