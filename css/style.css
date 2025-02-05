@@ -350,13 +350,8 @@ select::-ms-expand {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   top: 50%;
-  text-align: center;
-  color: #fff;
-  font-weight: 300;
-  font-size: 40px;
-  white-space: nowrap;
   /* ドロップシャドウ */
-  text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
+  width: 37.578125vw;
 }
 
 .kv__texts--main {
@@ -1127,8 +1122,7 @@ PC用背景
     top: 20%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    font-size: 6.9333333333vw;
-    text-shadow: 0 0 8px rgba(231, 224, 215, 0.8), 0 0 15px rgba(231, 224, 215, 0.5), 2px 2px 3px rgba(43, 31, 26, 0.8); /* ドロップシャドウ */
+    width: 82.5333333333vw;
   }
   .kv__texts--main {
     line-height: 1.5;
