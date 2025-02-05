@@ -285,6 +285,9 @@
   color: $color-blue;
   margin-bottom: 26px;
 }
+.sec-04__item:nth-child(1) .sec-04__item-head {
+  margin-bottom: 73px;
+}
 .sec-04__item-description {
   max-width: 540px;
   margin-right:auto;
