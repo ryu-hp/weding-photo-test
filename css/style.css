@@ -339,7 +339,7 @@ select::-ms-expand {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 130px;
+  width: 160px;
 }
 
 .kv__texts {
@@ -1222,6 +1222,9 @@ PC用背景
   }
   .sec-03__card-head {
     font-size: 20px;
+  }
+  .sec-03__card-images {
+    gap: 4px;
   }
   .sec-03__card.__01 .sec-03__card-images {
     grid-template-rows: auto;
