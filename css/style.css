@@ -339,7 +339,7 @@ select::-ms-expand {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 100px;
+  width: 130px;
 }
 
 .kv__texts {
@@ -471,7 +471,7 @@ select::-ms-expand {
 }
 
 .sec-01 {
-  margin-top: 24px;
+  margin-top: 40px;
 }
 
 .sec-01__image {
@@ -562,7 +562,7 @@ select::-ms-expand {
   text-align: center;
   color: #3c5b6c;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .sec-03__card-head .line {
@@ -672,7 +672,11 @@ select::-ms-expand {
 }
 
 .sec-05 {
-  background-color: #e9eae2;
+  background-color: transparent;
+  background-image: url(../image/flow-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sec-05__item {
@@ -726,16 +730,16 @@ select::-ms-expand {
 
 .sec-05__item-description {
   font-size: 19px;
-  width: 67%;
+  width: 75%;
   text-align: justify;
 }
 
 .sec-05__item-description .small {
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
 .sec-05__item-image {
-  width: 33%;
+  width: 20%;
 }
 
 .sec-06__text-contents {
@@ -1092,7 +1096,10 @@ PC用背景
 }
 
 .plan-bg-wrapper {
-  background-color: #e9eae2;
+  background-image: url(../image/plan-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-bottom: 80px;
 }
 
@@ -1209,6 +1216,9 @@ PC用背景
     background-position: center;
     background-repeat: no-repeat;
   }
+  .sec-03__card-head {
+    font-size: 20px;
+  }
   .sec-03__card.__01 .sec-03__card-images {
     grid-template-rows: auto;
     grid-template-columns: 37.4213836478% 1fr 1fr;
@@ -1268,13 +1278,6 @@ PC用背景
   .sec-04__item + .sec-04__item {
     margin-top: 80px;
   }
-  .sec-05 {
-    background-color: transparent;
-    background-image: url(../image/flow-bg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
   .sec-05__item {
     position: relative;
   }
@@ -1301,6 +1304,9 @@ PC用背景
   .sec-05__item-description {
     font-size: 16px;
     width: 100%;
+  }
+  .sec-05__item-description .small {
+    font-size: 0.75em;
   }
   .sec-05__item-head {
     font-size: 24px;

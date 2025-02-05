@@ -112,6 +112,9 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .sec-03__card-head {
+    font-size: 20px
+  }
   .sec-03__card.__01 {
     .sec-03__card-images {
       grid-template-rows: auto;
@@ -182,13 +185,6 @@
     margin-top: 80px;
   }
   // sec-05
-  .sec-05 {
-    background-color: transparent;
-    background-image: url(../image/flow-bg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
   .sec-05__item {
     position: relative;
   }
@@ -214,6 +210,9 @@
   .sec-05__item-description {
     font-size: 16px;
     width: 100%;
+  }
+  .sec-05__item-description .small {
+    font-size: 0.75em;
   }
   .sec-05__item-head {
     font-size: 24px;

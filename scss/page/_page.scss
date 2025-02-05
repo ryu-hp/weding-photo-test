@@ -15,7 +15,7 @@
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 100px;
+    width: 130px;
 }
 .kv__texts {
   position: absolute;
@@ -129,7 +129,7 @@
 }
 // sec-01
 .sec-01 {
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .sec-01__image {
   max-width: 353px;
@@ -204,7 +204,7 @@
   text-align: center;
   color: $color-blue;
   font-weight: $normal;
-  font-size: 20px;
+  font-size: 22px;
 }
 .sec-03__card-head .line {
   position: relative;
@@ -293,7 +293,11 @@
 }
 // sec-05
 .sec-05 {
-  background-color: $color-yellow-bg;
+  background-color: transparent;
+  background-image: url(../image/flow-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .sec-05__item {
   display: flex;
@@ -333,14 +337,14 @@
 }
 .sec-05__item-description {
   font-size: 19px;
-  width: 67%;
+  width: 75%;
   text-align: justify;
 }
 .sec-05__item-description .small {
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 .sec-05__item-image {
-  width: 33%;
+  width: 20%;
 }
 // sec-06
 .sec-06__text-contents {
@@ -631,6 +635,9 @@ PC用背景
   padding-bottom: 60px;
 }
 .plan-bg-wrapper {
-  background-color: $color-yellow-bg; 
+  background-image: url(../image/plan-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding-bottom: 80px;
 }
