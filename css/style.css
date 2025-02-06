@@ -1197,7 +1197,7 @@ PC用背景
     text-align: center;
   }
   .sec-02__images {
-    width: 100%;
+    max-width: 100%;
   }
   .sec-02__images::before {
     content: "";
