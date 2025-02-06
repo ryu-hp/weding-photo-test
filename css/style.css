@@ -494,7 +494,6 @@ select::-ms-expand {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 50px;
-  max-width: 763px;
 }
 
 .sec-02 .section-title {
@@ -520,9 +519,8 @@ select::-ms-expand {
   padding-top: 128.9115646259%;
 }
 
-.sec-02__image {
-  position: absolute;
-  width: 64.9659863946%;
+.sec-02__image video {
+  width: 100%;
 }
 
 .sec-02__image.__01 {
@@ -531,7 +529,7 @@ select::-ms-expand {
 }
 
 .sec-02__image.__02 {
-  bottom: 0;
+  top: 10%;
   right: 0;
   width: 48.6394557823%;
   z-index: 1;
@@ -1202,14 +1200,14 @@ PC用背景
     width: 100%;
   }
   .sec-02__images::before {
+    content: "";
+    display: block;
+    width: 100%;
     padding-top: 135.7798165138%;
   }
   .sec-02__image {
+    position: absolute;
     width: 47.7064220183%;
-  }
-  .sec-02__image.__02 {
-    top: 10%;
-    bottom: auto;
   }
   .sec-03 {
     background-image: url(../image/example-bg.webp);

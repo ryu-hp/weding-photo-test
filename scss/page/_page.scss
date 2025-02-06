@@ -152,7 +152,6 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  max-width: 763px;
 }
 .sec-02 .section-title {
   text-align: left;
@@ -172,16 +171,15 @@
     width: 100%;
     padding-top: calc(379 / 294 * 100%) ;
 }
-.sec-02__image {
-  position: absolute;
-  width: calc( 191 / 294 * 100% );
+.sec-02__image video {
+  width: 100%;
 }
 .sec-02__image.__01 {
   top: 0;
   left: 0;
 }
 .sec-02__image.__02 {
-  bottom: 0;
+  top: 10%;
   right: 0;
   width: calc( 143 / 294 * 100% );
   z-index: 1;

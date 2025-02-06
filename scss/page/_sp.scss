@@ -97,14 +97,14 @@
     width: 100%;
   }
   .sec-02__images::before {
+    content: "";
+    display: block;
+    width: 100%;
     padding-top: calc(444 / 327 * 100%) ;
   }
   .sec-02__image {
+    position: absolute;
     width: calc( 156 / 327 * 100% );
-  }
-  .sec-02__image.__02 {
-    top: 10%;
-    bottom: auto;
   }
   // sec-03
   .sec-03 {
