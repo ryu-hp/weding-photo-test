@@ -37,6 +37,7 @@
   .cta__btn {
     left: 50%;
     bottom: 10%;
+    max-width: 100%;
     @media screen and (max-width:531px) {
       bottom: 5%;
     }

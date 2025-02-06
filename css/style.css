@@ -272,14 +272,13 @@ select::-ms-expand {
   color: #fff;
   font-weight: 600;
   max-width: 300px;
-  width: 254px;
+  width: 100%;
   line-height: 1;
   padding: 16px 16px;
   position: relative;
   white-space: nowrap;
   font-size: 16px;
   background: #6e8895;
-  position: relative;
   overflow: hidden;
 }
 
@@ -428,6 +427,13 @@ select::-ms-expand {
   bottom: 5%;
   width: 100%;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 246px;
 }
 
 .cta._02 .cta__btn {
@@ -1174,6 +1180,7 @@ PC用背景
   .cta__btn {
     left: 50%;
     bottom: 10%;
+    max-width: 100%;
   }
   /* =======================
   PC用背景

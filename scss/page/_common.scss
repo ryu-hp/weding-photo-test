@@ -76,14 +76,13 @@
   color: $color-white;
   font-weight: $bold;
   max-width: 300px;
-  width: 254px;
+  width: 100%;
   line-height: 1;
   padding: 16px 16px;
   position: relative;
   white-space: nowrap;
   font-size: 16px;
   background: $color-btn-bg;
-  position: relative;
   overflow: hidden;
 }
 .cta-btn__contents {
