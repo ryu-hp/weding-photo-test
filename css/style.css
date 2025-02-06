@@ -659,6 +659,7 @@ select::-ms-expand {
   margin-right: auto;
   margin-left: auto;
   text-align: justify;
+  letter-spacing: 0.05em;
 }
 
 .sec-05 {
