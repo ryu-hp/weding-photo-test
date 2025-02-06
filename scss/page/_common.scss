@@ -63,6 +63,14 @@
   grid-template-columns: repeat(3,1fr);
 }
 // ボタン
+.btn_box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
 .cta-btn {
   display: inline-block;
   color: $color-white;
@@ -75,6 +83,8 @@
   white-space: nowrap;
   font-size: 16px;
   background: $color-btn-bg;
+  position: relative;
+  overflow: hidden;
 }
 .cta-btn__contents {
   display: flex;
@@ -84,6 +94,28 @@
 }
 .cta-btn img {
   width: 16px;
+}
+
+.cta-btn:hover {
+  text-decoration: none;
+}
+.cta-btn::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fbfbfb;
+  animation: btn_animation 2.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes btn_animation {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 @include mq(md) {
   // 余白

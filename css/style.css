@@ -258,6 +258,15 @@ select::-ms-expand {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.btn_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+}
+
 .cta-btn {
   display: inline-block;
   color: #fff;
@@ -270,6 +279,8 @@ select::-ms-expand {
   white-space: nowrap;
   font-size: 16px;
   background: #6e8895;
+  position: relative;
+  overflow: hidden;
 }
 
 .cta-btn__contents {
@@ -289,6 +300,41 @@ select::-ms-expand {
   width: 16px;
 }
 
+.cta-btn:hover {
+  text-decoration: none;
+}
+
+.cta-btn::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fbfbfb;
+  -webkit-animation: btn_animation 2.5s ease-in-out infinite;
+          animation: btn_animation 2.5s ease-in-out infinite;
+}
+
+@-webkit-keyframes btn_animation {
+  0% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(0) rotate(45deg);
+    opacity: 0.5;
+  }
+  81% {
+    -webkit-transform: scale(4) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 767px) {
   .section-space {
     padding-top: 40px;
