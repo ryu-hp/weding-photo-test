@@ -280,6 +280,9 @@
   .sec-07__card-contents {
     margin-bottom: 20px;
   }
+  .sec-07__card-item {
+    max-width: calc((100% - 32px) / 3);
+  }
   .sec-07__card-list {
     margin-bottom: 40px;
   }
