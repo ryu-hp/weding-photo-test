@@ -835,6 +835,11 @@ select::-ms-expand {
   overflow-x: scroll;
 }
 
+.sec-06__col-wrapper p {
+  color: #3c5b6c;
+  font-size: 14px;
+}
+
 .sec-06__calcel {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -386,6 +386,10 @@
 .sec-06__col-wrapper {
   overflow-x: scroll;
 }
+.sec-06__col-wrapper p {
+  color: $color-blue;
+  font-size: 14px;
+}
 .sec-06__calcel {
   display: flex;
   flex-direction: column;
