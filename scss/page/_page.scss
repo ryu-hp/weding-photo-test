@@ -464,7 +464,7 @@
 .sec-07__card-contents {
   display: flex;
   justify-content: center;
-  gap:32px 16px;
+  gap:16px 16px;
   flex-wrap: wrap;
   margin-bottom: 20px;
   max-width: 500px;
@@ -594,7 +594,7 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  max-width: 390px;
+  max-width: 320px;
   z-index: 1024;
 }
 .fix-contents a {

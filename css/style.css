@@ -887,7 +887,7 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 32px 16px;
+  gap: 16px 16px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 20px;
@@ -1047,7 +1047,7 @@ select::-ms-expand {
   bottom: 0;
   right: 0;
   width: 100%;
-  max-width: 390px;
+  max-width: 320px;
   z-index: 1024;
 }
 
@@ -1369,7 +1369,7 @@ PC用背景
   }
   .sec-07__card-alert {
     display: block;
-    font-size: 20px;
+    font-size: 14px;
   }
   .sec-08 {
     padding-bottom: 80px;
