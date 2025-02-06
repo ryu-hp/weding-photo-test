@@ -838,6 +838,7 @@ select::-ms-expand {
 .sec-06__col-wrapper p {
   color: #3c5b6c;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .sec-06__calcel {
