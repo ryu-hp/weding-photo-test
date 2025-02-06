@@ -130,6 +130,9 @@
   bottom: 15%;
   left: 39%;
   transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  max-width: 246px;
 }
 // sec-01
 .sec-01 {
@@ -164,7 +167,7 @@
   left: 0;
 }
 .sec-02__images {
-  max-width: 475px;
+  max-width: 50%;
   position: relative;
   display: block;
 }

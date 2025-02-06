@@ -271,7 +271,7 @@ select::-ms-expand {
   display: inline-block;
   color: #fff;
   font-weight: 600;
-  max-width: 300px;
+  max-width: 246px;
   width: 100%;
   line-height: 1;
   padding: 16px 16px;
@@ -515,6 +515,13 @@ select::-ms-expand {
   left: 39%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 246px;
 }
 
 .sec-01 {
@@ -559,7 +566,7 @@ select::-ms-expand {
 }
 
 .sec-02__images {
-  max-width: 475px;
+  max-width: 50%;
   position: relative;
   display: block;
 }
@@ -1210,6 +1217,7 @@ PC用背景
     position: static;
     -webkit-transform: none;
             transform: none;
+    max-width: 100%;
   }
   .sec-01 {
     margin-top: 0;
