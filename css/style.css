@@ -507,16 +507,9 @@ select::-ms-expand {
 }
 
 .sec-02__images {
-  max-width: 600px;
+  max-width: 475px;
   position: relative;
   display: block;
-}
-
-.sec-02__images::before {
-  content: "";
-  display: block;
-  width: 100%;
-  padding-top: 128.9115646259%;
 }
 
 .sec-02__image video {
