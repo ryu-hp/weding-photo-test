@@ -835,7 +835,7 @@ select::-ms-expand {
   overflow-x: scroll;
 }
 
-.sec-06__col-wrapper p {
+.sec-06__col-container p {
   color: #3c5b6c;
   font-size: 14px;
   margin-top: 10px;
