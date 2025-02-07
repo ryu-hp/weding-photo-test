@@ -1110,8 +1110,8 @@ select::-ms-expand {
 
 .fix-contents {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 20px;
   width: 100%;
   max-width: 320px;
   z-index: 1024;
