@@ -110,6 +110,26 @@
   animation: btn_animation 2.5s ease-in-out infinite;
 }
 
+.cta-animation {
+  position: relative;
+  overflow: hidden;
+}
+.cta-animation:hover {
+  text-decoration: none;
+}
+.cta-animation::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fbfbfb;
+  animation: btn_animation 2.5s ease-in-out infinite;
+}
+
+
 @-webkit-keyframes btn_animation {
   0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
   80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
