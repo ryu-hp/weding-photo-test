@@ -1337,6 +1337,7 @@ PC用背景
   }
   .sec-04__item-head {
     margin-bottom: 10px;
+    font-size: 24px;
   }
   .sec-04__item:nth-child(1) .sec-04__item-head {
     margin-bottom: 10px;
